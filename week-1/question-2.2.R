@@ -4,6 +4,8 @@ require('kknn')
 # Load credit card data into a data frame
 data_df <- read.table("credit_card_data-headers.txt", header=TRUE)
 
+# set.seed(42) - comment in to repeat results across different values of k
+
 # Identifies 70% of the records that will be used to determine the train_df
 sample <- sample(nrow(data_df), round(nrow(data_df)*.7))
 
@@ -25,3 +27,6 @@ accuracy <- (sum(diag(CM)))/sum(CM)
 
 # Print accuracy
 accuracy
+
+
+
