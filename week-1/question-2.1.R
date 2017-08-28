@@ -25,11 +25,11 @@ results <- predict(model, data_mx[,1:10], type='response')
 sum(results)
 
 # calculate a1…am for model
-a <- colSums(data_mx[model@SVindex,1:10] * model@coef[[1]])
+a <- colSums(model@xmatrix[[1]] * model@coef[[1]])
 a
 
 # calculate a0
-a0 <- sum(a*data_mx[1,1:10]) - model@b
+a0 <- -model@b
 a0
 
 
