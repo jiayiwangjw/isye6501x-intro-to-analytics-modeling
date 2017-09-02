@@ -62,16 +62,16 @@ model_k4 <- train.model(4)
 model_k12 <- train.model(12)
 model_k15 <- train.model(15)
 
-### Returns accuracy for each model
+### Return accuracy for each model
 k4_acc <- eval.model(model_k4)   # 0.7992352
 k12_acc <- eval.model(model_k12) # 0.8527725
 k15_acc <- eval.model(model_k15) # 0.8661568
 
-### model_k15 performs best among the three models built
-### re-train model_k15 on entire training dataset and score against test dataset
+### Selected model_k15 as the best performer among the three built
+### Re-train model_k15 using the entire training dataset and score against the test dataset
 model <- kknn(R1 ~., training_df, test_df, k = 15, scale = TRUE)
 
-# Compare test_df R1 to model fit
+# Compare test_df R1 to predicted R1 values
 results_df <- data.frame(test_df$R1, round(model$fit))
 names(results_df) <- c("y","yhat_rounded")
 
