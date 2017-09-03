@@ -1,14 +1,14 @@
 # Clear the enviroment
 rm(list = ls())
 
+# Comment in set.seed(33) to repeat results across different values of k
+set.seed(33) 
+
 # Load the kknn library
 require('kknn')
 
 # Load credit card data into a data frame
 data_df <- read.table("credit_card_data-headers.txt", header=TRUE)
-
-# Comment in set.seed(33) to repeat results across different values of k
-set.seed(33) 
 
 # Randomly identify 80% of data points to use for creation of training_df
 sample <- sample(nrow(data_df), round(nrow(data_df)*.8))
@@ -48,10 +48,10 @@ eval.model <- function(model){
     results[[i]] <- as.integer(model[i, 'y'] == model[i, 'yhat_rounded'])
   }
 
-  # calculates correct predictions  
+  # calculates the number of correct predictions  
   correct <- sum(data.frame(results))
   
-  # calculates the percent correct
+  # calculates the percent of correct predictions
   accuracy <- correct / nrow(model)
 
   return(accuracy)
