@@ -1,0 +1,1452 @@
+2017-09-16 15:47:24.882 (20176): -----------------------------------------------------------------------------
+2017-09-16 15:47:24.882 (20176): Initializing fault reporting
+2017-09-16 15:47:24.883 (20176): Fault reporting log pathname: C:\Git\isye6501x-intro-to-analytics-modeling\week-4\tdeserver64-error00002eb8.log
+2017-09-16 15:47:24.883 (20176): Initializing MiniDump
+2017-09-16 15:47:24.883 (20176): Loading 'DbgHelp.dll'
+2017-09-16 15:47:24.883 (20176): Loaded 'C:\Windows\system32\dbghelp.dll'
+2017-09-16 15:47:24.883 (20176):   Product Name: Microsoft® Windows® Operating System
+2017-09-16 15:47:24.883 (20176):   File Version: 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+2017-09-16 15:47:24.883 (20176):   Product Version: 6.1.7601.17514
+2017-09-16 15:47:24.883 (20176): Finding function 'MiniDumpWriteDump'
+2017-09-16 15:47:24.883 (20176): Success
+2017-09-16 15:47:24.883 (20176): Registering unhandled exception filter
+2017-09-16 15:47:24.883 (20176): -----------------------------------------------------------------------------
+2017-09-16 15:47:24.883 (20176): argv[0]="C:\Users\swagner\AppData\Local\Alteryx\bin\tdeserver64.exe"
+2017-09-16 15:47:24.883 (20176): argv[1]="--callback"
+2017-09-16 15:47:24.883 (20176): argv[2]="tab.pipe://./pipe/{24CFCF9A-EEFB-4268-B2E0-B237C6C9FFDB}"
+2017-09-16 15:47:24.883 (20176): argv[3]="--listen"
+2017-09-16 15:47:24.883 (20176): argv[4]="tab.pipe://./pipe/auto"
+2017-09-16 15:47:24.883 (20176): argv[5]="--desktop"
+2017-09-16 15:47:24.883 (20176): argv[6]="--log"
+2017-09-16 15:47:24.883 (20176): argv[7]="C:\Git\isye6501x-intro-to-analytics-modeling\week-4\DataExtract.log"
+2017-09-16 15:47:24.883 (20176): pid=11960
+2017-09-16 15:47:24.884 (20176): Machine Configuration
+2017-09-16 15:47:24.884 (20176):   Max Descriptors: -1
+2017-09-16 15:47:24.884 (20176): Vectorization Support
+2017-09-16 15:47:24.884 (20176):   Supports SSE:    Yes
+2017-09-16 15:47:24.884 (20176):   Supports SSE2:   Yes
+2017-09-16 15:47:24.884 (20176):   Supports SSE3:   Yes
+2017-09-16 15:47:24.884 (20176):   Supports SSE4.1: Yes
+2017-09-16 15:47:24.884 (20176):   Supports SSE4.2: Yes
+2017-09-16 15:47:24.884 (20176):   Supports AVX:    Yes
+2017-09-16 15:47:24.884 (20176):   Supports AVX2:   Yes
+2017-09-16 15:47:24.884 (20176): Adjusted Parallelism Values
+2017-09-16 15:47:24.884 (20176):   CPUs available to process: 4
+2017-09-16 15:47:24.884 (20176):   max-concurrency:           2
+2017-09-16 15:47:24.884 (20176):   query-parallelism:         2
+2017-09-16 15:47:24.884 (20176):   min-query-parallelism:     2
+2017-09-16 15:47:24.885 (20176): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{BF5C95A8-BE1D-47AE-BC28-AE484E1A3E9F}
+2017-09-16 15:47:24.886 (20176): tdeserver: accepting new connection
+2017-09-16 15:47:24.886 (16744): beginthread: recv, connection=tab.pipe://./pipe/{BF5C95A8-BE1D-47AE-BC28-AE484E1A3E9F}
+2017-09-16 15:47:24.886 (20176): tdeserver: new connection, connection=tab.pipe://./pipe/{BF5C95A8-BE1D-47AE-BC28-AE484E1A3E9F}
+2017-09-16 15:47:24.886 (8248): beginthread: send, connection=tab.pipe://./pipe/{BF5C95A8-BE1D-47AE-BC28-AE484E1A3E9F}
+2017-09-16 15:47:24.886 (16744): tdeserver: open session, connection=tab.pipe://./pipe/{BF5C95A8-BE1D-47AE-BC28-AE484E1A3E9F}, sess_guid=1
+2017-09-16 15:47:24.886 (25660): Session1: QueryExecute:
+2017-09-16 15:47:24.886 (25660): (create database "C:\\Git\\isye6501x-intro-to-analytics-modeling\\week-3\\temps.tde")
+2017-09-16 15:47:25.215 (25660): Compiling query with Memory Budget=4288802816
+2017-09-16 15:47:25.215 (25660): Session1: QueryExecute: OK, Elapsed time:0.329s, Compilation time:0.329s, Execution time:0.000s
+2017-09-16 15:47:25.216 (27860): Session1: QueryExecute:
+2017-09-16 15:47:25.216 (27860): (create schema [Extract])
+2017-09-16 15:47:25.216 (27860): Compiling query with Memory Budget=4288753664
+2017-09-16 15:47:25.244 (27860): Session1: QueryExecute: OK, Elapsed time:0.028s, Compilation time:0.000s, Execution time:0.028s
+2017-09-16 15:47:25.244 (25660): Session1: QueryExecute:
+2017-09-16 15:47:25.244 (25660): (create table [Extract].[Extract])
+2017-09-16 15:47:25.244 (25660): Compiling query with Memory Budget=4287893504
+2017-09-16 15:47:25.268 (25660): Session1: QueryExecute: OK, Elapsed time:0.024s, Compilation time:0.000s, Execution time:0.024s
+2017-09-16 15:47:25.268 (27860): Session1: QueryExecute:
+2017-09-16 15:47:25.268 (27860): (create column [Extract].[Extract].[DAY] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-09-16 15:47:25.270 (27860): Compiling query with Memory Budget=4286570496
+2017-09-16 15:47:25.294 (27860): Session1: QueryExecute: OK, Elapsed time:0.025s, Compilation time:0.002s, Execution time:0.023s
+2017-09-16 15:47:25.294 (25660): Session1: QueryExecute:
+2017-09-16 15:47:25.294 (25660): (create column [Extract].[Extract].[TEMP] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "1" ) ))
+2017-09-16 15:47:25.295 (25660): Compiling query with Memory Budget=4285722624
+2017-09-16 15:47:25.312 (25660): Session1: QueryExecute: OK, Elapsed time:0.017s, Compilation time:0.000s, Execution time:0.017s
+2017-09-16 15:47:25.312 (27860): Session1: QueryExecute:
+2017-09-16 15:47:25.312 (27860): (create column [Extract].[Extract].[YEAR] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "2" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-09-16 15:47:25.313 (27860): Compiling query with Memory Budget=4284887040
+2017-09-16 15:47:25.324 (27860): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.011s
+2017-09-16 15:47:25.324 (25660): Session1: QueryExecute:
+2017-09-16 15:47:25.324 (25660): (create column [Extract].[Extract].[RecordID] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "3" ) ))
+2017-09-16 15:47:25.325 (25660): Compiling query with Memory Budget=4284628992
+2017-09-16 15:47:25.338 (25660): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-09-16 15:47:25.338 (27860): Session1: QueryExecute:
+2017-09-16 15:47:25.338 (27860): (create column [Extract].[Extract].[Mu] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ))
+2017-09-16 15:47:25.338 (27860): Compiling query with Memory Budget=4284563456
+2017-09-16 15:47:25.346 (27860): Session1: QueryExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2017-09-16 15:47:25.346 (25660): Session1: QueryExecute:
+2017-09-16 15:47:25.346 (25660): (create column [Extract].[Extract].[C] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2017-09-16 15:47:25.347 (25660): Compiling query with Memory Budget=4286398464
+2017-09-16 15:47:25.356 (25660): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-09-16 15:47:25.356 (27860): Session1: QueryExecute:
+2017-09-16 15:47:25.356 (27860): (create column [Extract].[Extract].[Mu-Xt-C] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ))
+2017-09-16 15:47:25.356 (27860): Compiling query with Memory Budget=4286402560
+2017-09-16 15:47:25.370 (27860): Session1: QueryExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.014s
+2017-09-16 15:47:25.370 (25660): Session1: QueryExecute:
+2017-09-16 15:47:25.370 (25660): (create column [Extract].[Extract].[St] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2017-09-16 15:47:25.370 (25660): Compiling query with Memory Budget=4286402560
+2017-09-16 15:47:25.378 (25660): Session1: QueryExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2017-09-16 15:47:25.379 (27860): Session1: QueryExecute:
+2017-09-16 15:47:25.379 (27860): (package)
+2017-09-16 15:47:25.379 (27860): Compiling query with Memory Budget=4286390272
+2017-09-16 15:47:25.379 (27860): PackageDatabase: in-place package of "C:\Git\isye6501x-intro-to-analytics-modeling\week-3\temps.tde"
+2017-09-16 15:47:25.423 (27860): PackageDatabase: finished
+2017-09-16 15:47:25.424 (27860): Session1: QueryExecute: OK, Elapsed time:0.045s, Compilation time:0.000s, Execution time:0.045s
+2017-09-16 15:47:25.424 (25660): Session1: QueryExecute:
+2017-09-16 15:47:25.424 (25660): (database "C:\\Git\\isye6501x-intro-to-analytics-modeling\\week-3\\temps.tde")
+2017-09-16 15:47:25.426 (25660): Compiling query with Memory Budget=4286709760
+2017-09-16 15:47:25.426 (25660): Session1: QueryExecute: OK, Elapsed time:0.002s, Compilation time:0.002s, Execution time:0.000s
+2017-09-16 15:47:25.427 (27860): Session1: QueryExecute:
+2017-09-16 15:47:25.427 (27860): (show schemas)
+2017-09-16 15:47:25.427 (27860): Compiling query with Memory Budget=4286709760
+2017-09-16 15:47:25.427 (27860): Session1: QueryExecute: OK rowset_guid=1 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.000s
+2017-09-16 15:47:25.427 (25660): Session1: RowsetGetValues:
+2017-09-16 15:47:25.427 (27860): Session1: RowsetGetValues:
+2017-09-16 15:47:25.427 (25660): Session1: RowsetClose:
+2017-09-16 15:47:25.427 (27860): Session1: QueryExecute:
+2017-09-16 15:47:25.427 (27860): (show tables [Extract])
+2017-09-16 15:47:25.428 (27860): Compiling query with Memory Budget=4286705664
+2017-09-16 15:47:25.429 (27860): Session1: QueryExecute: OK rowset_guid=2 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-09-16 15:47:25.429 (25660): Session1: RowsetGetValues:
+2017-09-16 15:47:25.429 (27860): Session1: RowsetGetValues:
+2017-09-16 15:47:25.429 (25660): Session1: RowsetClose:
+2017-09-16 15:47:25.429 (27860): Session1: QueryExecute:
+2017-09-16 15:47:25.429 (27860): (top (table [Extract].[Extract]) () 0)
+2017-09-16 15:47:25.438 (27860): Compiling query with DOP=2
+2017-09-16 15:47:25.439 (27860): Compiling query with Memory Budget=4286713856
+2017-09-16 15:47:25.439 (27860): Session1: QueryExecute: OK rowset_guid=3 n_columns=8, Elapsed time:0.010s, Compilation time:0.010s, Execution time:0.000s
+2017-09-16 15:47:25.439 (25660): Session1: RowsetClose:
+2017-09-16 15:47:25.440 (27860): Session1: QueryExecute:
+2017-09-16 15:47:25.440 (27860): (alter column [Extract].[Extract].[DAY] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:47:25.440 (27860): Compiling query with Memory Budget=4286713856
+2017-09-16 15:47:25.449 (27860): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-09-16 15:47:25.449 (25660): Session1: QueryExecute:
+2017-09-16 15:47:25.449 (25660): (alter column [Extract].[Extract].[TEMP] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:47:25.449 (25660): Compiling query with Memory Budget=4286713856
+2017-09-16 15:47:25.452 (25660): Session1: QueryExecute: OK, Elapsed time:0.003s, Compilation time:0.000s, Execution time:0.003s
+2017-09-16 15:47:25.452 (27860): Session1: QueryExecute:
+2017-09-16 15:47:25.452 (27860): (alter column [Extract].[Extract].[YEAR] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:47:25.452 (27860): Compiling query with Memory Budget=4286713856
+2017-09-16 15:47:25.457 (27860): Session1: QueryExecute: OK, Elapsed time:0.004s, Compilation time:0.000s, Execution time:0.004s
+2017-09-16 15:47:25.457 (25660): Session1: QueryExecute:
+2017-09-16 15:47:25.457 (25660): (alter column [Extract].[Extract].[RecordID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:47:25.457 (25660): Compiling query with Memory Budget=4286713856
+2017-09-16 15:47:25.460 (25660): Session1: QueryExecute: OK, Elapsed time:0.003s, Compilation time:0.000s, Execution time:0.003s
+2017-09-16 15:47:25.461 (27860): Session1: QueryExecute:
+2017-09-16 15:47:25.461 (27860): (alter column [Extract].[Extract].[Mu] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:47:25.461 (27860): Compiling query with Memory Budget=4286713856
+2017-09-16 15:47:25.461 (27860): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-09-16 15:47:25.462 (25660): Session1: QueryExecute:
+2017-09-16 15:47:25.462 (25660): (alter column [Extract].[Extract].[C] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:47:25.462 (25660): Compiling query with Memory Budget=4286713856
+2017-09-16 15:47:25.462 (25660): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-09-16 15:47:25.463 (27860): Session1: QueryExecute:
+2017-09-16 15:47:25.463 (27860): (alter column [Extract].[Extract].[Mu-Xt-C] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:47:25.463 (27860): Compiling query with Memory Budget=4286713856
+2017-09-16 15:47:25.463 (27860): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-09-16 15:47:25.464 (25660): Session1: QueryExecute:
+2017-09-16 15:47:25.464 (25660): (alter column [Extract].[Extract].[St] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:47:25.464 (25660): Compiling query with Memory Budget=4286713856
+2017-09-16 15:47:25.464 (25660): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-09-16 15:47:25.464 (27860): Session1: QueryExecute:
+2017-09-16 15:47:25.464 (27860): (top (table [Extract].[Extract]) () 0)
+2017-09-16 15:47:25.465 (27860): Compiling query with DOP=2
+2017-09-16 15:47:25.466 (27860): Compiling query with Memory Budget=4286713856
+2017-09-16 15:47:25.468 (27860): Session1: QueryExecute: OK rowset_guid=4 n_columns=8, Elapsed time:0.002s, Compilation time:0.001s, Execution time:0.001s
+2017-09-16 15:47:25.468 (25660): Session1: RowsetClose:
+2017-09-16 15:47:25.469 (27860): Session1: QueryExecute:
+2017-09-16 15:47:25.469 (27860): (package)
+2017-09-16 15:47:25.469 (27860): Compiling query with Memory Budget=4286713856
+2017-09-16 15:47:25.469 (27860): PackageDatabase: in-place package of "C:\Git\isye6501x-intro-to-analytics-modeling\week-3\temps.tde"
+2017-09-16 15:47:25.487 (27860): PackageDatabase: finished
+2017-09-16 15:47:25.487 (27860): Session1: QueryExecute: OK, Elapsed time:0.018s, Compilation time:0.000s, Execution time:0.018s
+2017-09-16 15:47:25.487 (16744): tdeserver: close session, connection=tab.pipe://./pipe/{BF5C95A8-BE1D-47AE-BC28-AE484E1A3E9F}, sess_guid=1
+2017-09-16 15:47:25.488 (16744): tdeserver: connection dead: The pipe has been ended.
+2017-09-16 15:47:25.488 (16744):  - IPC_NamedPipe::Recv(ReadFile)
+2017-09-16 15:47:25.488 (16744): tdeserver: closing connection, connection=tab.pipe://./pipe/{BF5C95A8-BE1D-47AE-BC28-AE484E1A3E9F}
+2017-09-16 15:47:25.488 (16744): endthread: recv, connection=tab.pipe://./pipe/{BF5C95A8-BE1D-47AE-BC28-AE484E1A3E9F}
+2017-09-16 15:47:25.488 (8248): endthread: send, connection=tab.pipe://./pipe/{BF5C95A8-BE1D-47AE-BC28-AE484E1A3E9F}
+2017-09-16 15:47:25.488 (20176): tdeserver: exit (0)
+2017-09-16 15:47:58.128 (27272): -----------------------------------------------------------------------------
+2017-09-16 15:47:58.128 (27272): Initializing fault reporting
+2017-09-16 15:47:58.129 (27272): Fault reporting log pathname: C:\Git\isye6501x-intro-to-analytics-modeling\week-4\tdeserver64-error0000497c.log
+2017-09-16 15:47:58.129 (27272): Initializing MiniDump
+2017-09-16 15:47:58.129 (27272): Loading 'DbgHelp.dll'
+2017-09-16 15:47:58.129 (27272): Loaded 'C:\Windows\system32\dbghelp.dll'
+2017-09-16 15:47:58.129 (27272):   Product Name: Microsoft® Windows® Operating System
+2017-09-16 15:47:58.129 (27272):   File Version: 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+2017-09-16 15:47:58.129 (27272):   Product Version: 6.1.7601.17514
+2017-09-16 15:47:58.129 (27272): Finding function 'MiniDumpWriteDump'
+2017-09-16 15:47:58.129 (27272): Success
+2017-09-16 15:47:58.129 (27272): Registering unhandled exception filter
+2017-09-16 15:47:58.129 (27272): -----------------------------------------------------------------------------
+2017-09-16 15:47:58.129 (27272): argv[0]="C:\Users\swagner\AppData\Local\Alteryx\bin\tdeserver64.exe"
+2017-09-16 15:47:58.129 (27272): argv[1]="--callback"
+2017-09-16 15:47:58.129 (27272): argv[2]="tab.pipe://./pipe/{96FCBFD1-B9C2-4835-89A7-BC91E54D70B9}"
+2017-09-16 15:47:58.129 (27272): argv[3]="--listen"
+2017-09-16 15:47:58.129 (27272): argv[4]="tab.pipe://./pipe/auto"
+2017-09-16 15:47:58.129 (27272): argv[5]="--desktop"
+2017-09-16 15:47:58.129 (27272): argv[6]="--log"
+2017-09-16 15:47:58.129 (27272): argv[7]="C:\Git\isye6501x-intro-to-analytics-modeling\week-4\DataExtract.log"
+2017-09-16 15:47:58.129 (27272): pid=18812
+2017-09-16 15:47:58.129 (27272): Machine Configuration
+2017-09-16 15:47:58.129 (27272):   Max Descriptors: -1
+2017-09-16 15:47:58.129 (27272): Vectorization Support
+2017-09-16 15:47:58.129 (27272):   Supports SSE:    Yes
+2017-09-16 15:47:58.129 (27272):   Supports SSE2:   Yes
+2017-09-16 15:47:58.129 (27272):   Supports SSE3:   Yes
+2017-09-16 15:47:58.129 (27272):   Supports SSE4.1: Yes
+2017-09-16 15:47:58.129 (27272):   Supports SSE4.2: Yes
+2017-09-16 15:47:58.129 (27272):   Supports AVX:    Yes
+2017-09-16 15:47:58.129 (27272):   Supports AVX2:   Yes
+2017-09-16 15:47:58.129 (27272): Adjusted Parallelism Values
+2017-09-16 15:47:58.129 (27272):   CPUs available to process: 4
+2017-09-16 15:47:58.129 (27272):   max-concurrency:           2
+2017-09-16 15:47:58.129 (27272):   query-parallelism:         2
+2017-09-16 15:47:58.129 (27272):   min-query-parallelism:     2
+2017-09-16 15:47:58.130 (27272): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{FC460AF1-CAF7-4022-876B-E793E0C16AA5}
+2017-09-16 15:47:58.130 (27272): tdeserver: accepting new connection
+2017-09-16 15:47:58.130 (12780): beginthread: recv, connection=tab.pipe://./pipe/{FC460AF1-CAF7-4022-876B-E793E0C16AA5}
+2017-09-16 15:47:58.130 (27272): tdeserver: new connection, connection=tab.pipe://./pipe/{FC460AF1-CAF7-4022-876B-E793E0C16AA5}
+2017-09-16 15:47:58.130 (5000): beginthread: send, connection=tab.pipe://./pipe/{FC460AF1-CAF7-4022-876B-E793E0C16AA5}
+2017-09-16 15:47:58.130 (12780): tdeserver: open session, connection=tab.pipe://./pipe/{FC460AF1-CAF7-4022-876B-E793E0C16AA5}, sess_guid=1
+2017-09-16 15:47:58.130 (19964): Session1: QueryExecute:
+2017-09-16 15:47:58.130 (19964): (create database "C:\\Git\\isye6501x-intro-to-analytics-modeling\\week-3\\temps.tde")
+2017-09-16 15:47:58.526 (19964): Compiling query with Memory Budget=4273004544
+2017-09-16 15:47:58.526 (19964): Session1: QueryExecute: OK, Elapsed time:0.395s, Compilation time:0.395s, Execution time:0.000s
+2017-09-16 15:47:58.526 (17140): Session1: QueryExecute:
+2017-09-16 15:47:58.526 (17140): (create schema [Extract])
+2017-09-16 15:47:58.526 (17140): Compiling query with Memory Budget=4272914432
+2017-09-16 15:47:58.550 (17140): Session1: QueryExecute: OK, Elapsed time:0.023s, Compilation time:0.000s, Execution time:0.023s
+2017-09-16 15:47:58.550 (19964): Session1: QueryExecute:
+2017-09-16 15:47:58.550 (19964): (create table [Extract].[Extract])
+2017-09-16 15:47:58.550 (19964): Compiling query with Memory Budget=4272803840
+2017-09-16 15:47:58.577 (19964): Session1: QueryExecute: OK, Elapsed time:0.027s, Compilation time:0.000s, Execution time:0.027s
+2017-09-16 15:47:58.577 (17140): Session1: QueryExecute:
+2017-09-16 15:47:58.577 (17140): (create column [Extract].[Extract].[DAY] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-09-16 15:47:58.580 (17140): Compiling query with Memory Budget=4272730112
+2017-09-16 15:47:58.611 (17140): Session1: QueryExecute: OK, Elapsed time:0.034s, Compilation time:0.002s, Execution time:0.031s
+2017-09-16 15:47:58.611 (19964): Session1: QueryExecute:
+2017-09-16 15:47:58.611 (19964): (create column [Extract].[Extract].[YEAR] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-09-16 15:47:58.612 (19964): Compiling query with Memory Budget=4272672768
+2017-09-16 15:47:58.623 (19964): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-09-16 15:47:58.623 (17140): Session1: QueryExecute:
+2017-09-16 15:47:58.623 (17140): (create column [Extract].[Extract].[TEMP] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "2" ) ))
+2017-09-16 15:47:58.623 (17140): Compiling query with Memory Budget=4272672768
+2017-09-16 15:47:58.639 (17140): Session1: QueryExecute: OK, Elapsed time:0.016s, Compilation time:0.000s, Execution time:0.016s
+2017-09-16 15:47:58.640 (19964): Session1: QueryExecute:
+2017-09-16 15:47:58.640 (19964): (create column [Extract].[Extract].[RecordID] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "3" ) ))
+2017-09-16 15:47:58.640 (19964): Compiling query with Memory Budget=4272672768
+2017-09-16 15:47:58.650 (19964): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-09-16 15:47:58.650 (17140): Session1: QueryExecute:
+2017-09-16 15:47:58.650 (17140): (create column [Extract].[Extract].[Mu] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ))
+2017-09-16 15:47:58.651 (17140): Compiling query with Memory Budget=4272672768
+2017-09-16 15:47:58.663 (17140): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-09-16 15:47:58.663 (19964): Session1: QueryExecute:
+2017-09-16 15:47:58.663 (19964): (create column [Extract].[Extract].[C] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2017-09-16 15:47:58.663 (19964): Compiling query with Memory Budget=4272672768
+2017-09-16 15:47:58.676 (19964): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-09-16 15:47:58.676 (17140): Session1: QueryExecute:
+2017-09-16 15:47:58.676 (17140): (create column [Extract].[Extract].[Mu-Xt-C] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ))
+2017-09-16 15:47:58.677 (17140): Compiling query with Memory Budget=4272672768
+2017-09-16 15:47:58.688 (17140): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-09-16 15:47:58.688 (19964): Session1: QueryExecute:
+2017-09-16 15:47:58.688 (19964): (create column [Extract].[Extract].[St] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2017-09-16 15:47:58.688 (19964): Compiling query with Memory Budget=4272672768
+2017-09-16 15:47:58.700 (19964): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-09-16 15:47:58.701 (17140): Session1: QueryExecute:
+2017-09-16 15:47:58.701 (17140): (package)
+2017-09-16 15:47:58.701 (17140): Compiling query with Memory Budget=4272652288
+2017-09-16 15:47:58.702 (17140): PackageDatabase: in-place package of "C:\Git\isye6501x-intro-to-analytics-modeling\week-3\temps.tde"
+2017-09-16 15:47:58.756 (17140): PackageDatabase: finished
+2017-09-16 15:47:58.756 (17140): Session1: QueryExecute: OK, Elapsed time:0.055s, Compilation time:0.000s, Execution time:0.055s
+2017-09-16 15:47:58.756 (19964): Session1: QueryExecute:
+2017-09-16 15:47:58.756 (19964): (database "C:\\Git\\isye6501x-intro-to-analytics-modeling\\week-3\\temps.tde")
+2017-09-16 15:47:58.757 (19964): Compiling query with Memory Budget=4272652288
+2017-09-16 15:47:58.757 (19964): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.000s
+2017-09-16 15:47:58.757 (17140): Session1: QueryExecute:
+2017-09-16 15:47:58.757 (17140): (show schemas)
+2017-09-16 15:47:58.757 (17140): Compiling query with Memory Budget=4272640000
+2017-09-16 15:47:58.758 (17140): Session1: QueryExecute: OK rowset_guid=1 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-09-16 15:47:58.758 (19964): Session1: RowsetGetValues:
+2017-09-16 15:47:58.758 (17140): Session1: RowsetGetValues:
+2017-09-16 15:47:58.758 (19964): Session1: RowsetClose:
+2017-09-16 15:47:58.758 (17140): Session1: QueryExecute:
+2017-09-16 15:47:58.758 (17140): (show tables [Extract])
+2017-09-16 15:47:58.758 (17140): Compiling query with Memory Budget=4272603136
+2017-09-16 15:47:58.759 (17140): Session1: QueryExecute: OK rowset_guid=2 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-09-16 15:47:58.759 (19964): Session1: RowsetGetValues:
+2017-09-16 15:47:58.759 (17140): Session1: RowsetGetValues:
+2017-09-16 15:47:58.759 (19964): Session1: RowsetClose:
+2017-09-16 15:47:58.760 (17140): Session1: QueryExecute:
+2017-09-16 15:47:58.760 (17140): (top (table [Extract].[Extract]) () 0)
+2017-09-16 15:47:58.770 (17140): Compiling query with DOP=2
+2017-09-16 15:47:58.770 (17140): Compiling query with Memory Budget=4272009216
+2017-09-16 15:47:58.771 (17140): Session1: QueryExecute: OK rowset_guid=3 n_columns=8, Elapsed time:0.011s, Compilation time:0.011s, Execution time:0.000s
+2017-09-16 15:47:58.772 (19964): Session1: RowsetClose:
+2017-09-16 15:47:58.772 (17140): Session1: QueryExecute:
+2017-09-16 15:47:58.772 (17140): (alter column [Extract].[Extract].[DAY] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:47:58.773 (17140): Compiling query with Memory Budget=4271996928
+2017-09-16 15:47:58.786 (17140): Session1: QueryExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.013s
+2017-09-16 15:47:58.786 (19964): Session1: QueryExecute:
+2017-09-16 15:47:58.786 (19964): (alter column [Extract].[Extract].[YEAR] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:47:58.786 (19964): Compiling query with Memory Budget=4271976448
+2017-09-16 15:47:58.793 (19964): Session1: QueryExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-09-16 15:47:58.793 (17140): Session1: QueryExecute:
+2017-09-16 15:47:58.793 (17140): (alter column [Extract].[Extract].[TEMP] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:47:58.794 (17140): Compiling query with Memory Budget=4271976448
+2017-09-16 15:47:58.796 (17140): Session1: QueryExecute: OK, Elapsed time:0.002s, Compilation time:0.000s, Execution time:0.002s
+2017-09-16 15:47:58.796 (19964): Session1: QueryExecute:
+2017-09-16 15:47:58.796 (19964): (alter column [Extract].[Extract].[RecordID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:47:58.796 (19964): Compiling query with Memory Budget=4271964160
+2017-09-16 15:47:58.797 (19964): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-09-16 15:47:58.797 (17140): Session1: QueryExecute:
+2017-09-16 15:47:58.797 (17140): (alter column [Extract].[Extract].[Mu] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:47:58.797 (17140): Compiling query with Memory Budget=4271964160
+2017-09-16 15:47:58.798 (17140): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-09-16 15:47:58.798 (19964): Session1: QueryExecute:
+2017-09-16 15:47:58.798 (19964): (alter column [Extract].[Extract].[C] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:47:58.799 (19964): Compiling query with Memory Budget=4271964160
+2017-09-16 15:47:58.800 (19964): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-09-16 15:47:58.800 (17140): Session1: QueryExecute:
+2017-09-16 15:47:58.800 (17140): (alter column [Extract].[Extract].[Mu-Xt-C] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:47:58.800 (17140): Compiling query with Memory Budget=4271964160
+2017-09-16 15:47:58.801 (17140): Session1: QueryExecute: OK, Elapsed time:0.002s, Compilation time:0.000s, Execution time:0.001s
+2017-09-16 15:47:58.802 (19964): Session1: QueryExecute:
+2017-09-16 15:47:58.802 (19964): (alter column [Extract].[Extract].[St] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:47:58.802 (19964): Compiling query with Memory Budget=4271964160
+2017-09-16 15:47:58.803 (19964): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-09-16 15:47:58.803 (17140): Session1: QueryExecute:
+2017-09-16 15:47:58.803 (17140): (top (table [Extract].[Extract]) () 0)
+2017-09-16 15:47:58.804 (17140): Compiling query with DOP=2
+2017-09-16 15:47:58.804 (17140): Compiling query with Memory Budget=4271964160
+2017-09-16 15:47:58.804 (17140): Session1: QueryExecute: OK rowset_guid=4 n_columns=8, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.000s
+2017-09-16 15:47:58.805 (19964): Session1: RowsetClose:
+2017-09-16 15:47:58.805 (17140): Session1: QueryExecute:
+2017-09-16 15:47:58.805 (17140): (package)
+2017-09-16 15:47:58.805 (17140): Compiling query with Memory Budget=4271964160
+2017-09-16 15:47:58.805 (17140): PackageDatabase: in-place package of "C:\Git\isye6501x-intro-to-analytics-modeling\week-3\temps.tde"
+2017-09-16 15:47:58.833 (17140): PackageDatabase: finished
+2017-09-16 15:47:58.833 (17140): Session1: QueryExecute: OK, Elapsed time:0.029s, Compilation time:0.000s, Execution time:0.029s
+2017-09-16 15:47:58.834 (12780): tdeserver: close session, connection=tab.pipe://./pipe/{FC460AF1-CAF7-4022-876B-E793E0C16AA5}, sess_guid=1
+2017-09-16 15:47:58.834 (27272): tdeserver: closing connection, connection=tab.pipe://./pipe/{FC460AF1-CAF7-4022-876B-E793E0C16AA5}
+2017-09-16 15:47:58.834 (5000): endthread: send, connection=tab.pipe://./pipe/{FC460AF1-CAF7-4022-876B-E793E0C16AA5}
+2017-09-16 15:47:58.834 (12780): tdeserver: connection dead: The pipe has been ended.
+2017-09-16 15:47:58.834 (12780):  - IPC_NamedPipe::Recv(ReadFile)
+2017-09-16 15:47:58.834 (12780): endthread: recv, connection=tab.pipe://./pipe/{FC460AF1-CAF7-4022-876B-E793E0C16AA5}
+2017-09-16 15:47:58.834 (27272): tdeserver: exit (0)
+2017-09-16 15:51:05.685 (6472): -----------------------------------------------------------------------------
+2017-09-16 15:51:05.685 (6472): Initializing fault reporting
+2017-09-16 15:51:05.685 (6472): Fault reporting log pathname: C:\Git\isye6501x-intro-to-analytics-modeling\week-4\tdeserver64-error000037c0.log
+2017-09-16 15:51:05.685 (6472): Initializing MiniDump
+2017-09-16 15:51:05.685 (6472): Loading 'DbgHelp.dll'
+2017-09-16 15:51:05.685 (6472): Loaded 'C:\Windows\system32\dbghelp.dll'
+2017-09-16 15:51:05.685 (6472):   Product Name: Microsoft® Windows® Operating System
+2017-09-16 15:51:05.685 (6472):   File Version: 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+2017-09-16 15:51:05.685 (6472):   Product Version: 6.1.7601.17514
+2017-09-16 15:51:05.685 (6472): Finding function 'MiniDumpWriteDump'
+2017-09-16 15:51:05.685 (6472): Success
+2017-09-16 15:51:05.685 (6472): Registering unhandled exception filter
+2017-09-16 15:51:05.686 (6472): -----------------------------------------------------------------------------
+2017-09-16 15:51:05.686 (6472): argv[0]="C:\Users\swagner\AppData\Local\Alteryx\bin\tdeserver64.exe"
+2017-09-16 15:51:05.686 (6472): argv[1]="--callback"
+2017-09-16 15:51:05.686 (6472): argv[2]="tab.pipe://./pipe/{3A6BD36D-915C-4BEB-90C3-575683D1D1E3}"
+2017-09-16 15:51:05.686 (6472): argv[3]="--listen"
+2017-09-16 15:51:05.686 (6472): argv[4]="tab.pipe://./pipe/auto"
+2017-09-16 15:51:05.686 (6472): argv[5]="--desktop"
+2017-09-16 15:51:05.686 (6472): argv[6]="--log"
+2017-09-16 15:51:05.686 (6472): argv[7]="C:\Git\isye6501x-intro-to-analytics-modeling\week-4\DataExtract.log"
+2017-09-16 15:51:05.686 (6472): pid=14272
+2017-09-16 15:51:05.686 (6472): Machine Configuration
+2017-09-16 15:51:05.686 (6472):   Max Descriptors: -1
+2017-09-16 15:51:05.686 (6472): Vectorization Support
+2017-09-16 15:51:05.686 (6472):   Supports SSE:    Yes
+2017-09-16 15:51:05.686 (6472):   Supports SSE2:   Yes
+2017-09-16 15:51:05.686 (6472):   Supports SSE3:   Yes
+2017-09-16 15:51:05.686 (6472):   Supports SSE4.1: Yes
+2017-09-16 15:51:05.686 (6472):   Supports SSE4.2: Yes
+2017-09-16 15:51:05.686 (6472):   Supports AVX:    Yes
+2017-09-16 15:51:05.686 (6472):   Supports AVX2:   Yes
+2017-09-16 15:51:05.686 (6472): Adjusted Parallelism Values
+2017-09-16 15:51:05.686 (6472):   CPUs available to process: 4
+2017-09-16 15:51:05.686 (6472):   max-concurrency:           2
+2017-09-16 15:51:05.686 (6472):   query-parallelism:         2
+2017-09-16 15:51:05.686 (6472):   min-query-parallelism:     2
+2017-09-16 15:51:05.686 (6472): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{E42BF641-838B-4FA5-B0C8-8EACDC4435F0}
+2017-09-16 15:51:05.686 (6472): tdeserver: accepting new connection
+2017-09-16 15:51:05.686 (6472): tdeserver: new connection, connection=tab.pipe://./pipe/{E42BF641-838B-4FA5-B0C8-8EACDC4435F0}
+2017-09-16 15:51:05.686 (26060): beginthread: recv, connection=tab.pipe://./pipe/{E42BF641-838B-4FA5-B0C8-8EACDC4435F0}
+2017-09-16 15:51:05.686 (5648): beginthread: send, connection=tab.pipe://./pipe/{E42BF641-838B-4FA5-B0C8-8EACDC4435F0}
+2017-09-16 15:51:05.686 (26060): tdeserver: open session, connection=tab.pipe://./pipe/{E42BF641-838B-4FA5-B0C8-8EACDC4435F0}, sess_guid=1
+2017-09-16 15:51:05.687 (6964): Session1: QueryExecute:
+2017-09-16 15:51:05.687 (6964): (create database "C:\\Git\\isye6501x-intro-to-analytics-modeling\\week-3\\temps.tde")
+2017-09-16 15:51:06.004 (6964): Compiling query with Memory Budget=4242722816
+2017-09-16 15:51:06.004 (6964): Session1: QueryExecute: OK, Elapsed time:0.317s, Compilation time:0.317s, Execution time:0.000s
+2017-09-16 15:51:06.004 (24156): Session1: QueryExecute:
+2017-09-16 15:51:06.004 (24156): (create schema [Extract])
+2017-09-16 15:51:06.004 (24156): Compiling query with Memory Budget=4242632704
+2017-09-16 15:51:06.029 (24156): Session1: QueryExecute: OK, Elapsed time:0.025s, Compilation time:0.000s, Execution time:0.025s
+2017-09-16 15:51:06.030 (6964): Session1: QueryExecute:
+2017-09-16 15:51:06.030 (6964): (create table [Extract].[Extract])
+2017-09-16 15:51:06.030 (6964): Compiling query with Memory Budget=4242522112
+2017-09-16 15:51:06.051 (6964): Session1: QueryExecute: OK, Elapsed time:0.021s, Compilation time:0.000s, Execution time:0.021s
+2017-09-16 15:51:06.051 (24156): Session1: QueryExecute:
+2017-09-16 15:51:06.051 (24156): (create column [Extract].[Extract].[DAY] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-09-16 15:51:06.053 (24156): Compiling query with Memory Budget=4242497536
+2017-09-16 15:51:06.081 (24156): Session1: QueryExecute: OK, Elapsed time:0.030s, Compilation time:0.002s, Execution time:0.028s
+2017-09-16 15:51:06.082 (6964): Session1: QueryExecute:
+2017-09-16 15:51:06.082 (6964): (create column [Extract].[Extract].[YEAR] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-09-16 15:51:06.082 (6964): Compiling query with Memory Budget=4242423808
+2017-09-16 15:51:06.095 (6964): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-09-16 15:51:06.095 (24156): Session1: QueryExecute:
+2017-09-16 15:51:06.095 (24156): (create column [Extract].[Extract].[TEMP] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "2" ) ))
+2017-09-16 15:51:06.095 (24156): Compiling query with Memory Budget=4242423808
+2017-09-16 15:51:06.103 (24156): Session1: QueryExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2017-09-16 15:51:06.104 (6964): Session1: QueryExecute:
+2017-09-16 15:51:06.104 (6964): (create column [Extract].[Extract].[RecordID] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "3" ) ))
+2017-09-16 15:51:06.104 (6964): Compiling query with Memory Budget=4242423808
+2017-09-16 15:51:06.115 (6964): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-09-16 15:51:06.115 (24156): Session1: QueryExecute:
+2017-09-16 15:51:06.115 (24156): (create column [Extract].[Extract].[Mu] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ))
+2017-09-16 15:51:06.116 (24156): Compiling query with Memory Budget=4242423808
+2017-09-16 15:51:06.128 (24156): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-09-16 15:51:06.128 (6964): Session1: QueryExecute:
+2017-09-16 15:51:06.128 (6964): (create column [Extract].[Extract].[C] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2017-09-16 15:51:06.129 (6964): Compiling query with Memory Budget=4242423808
+2017-09-16 15:51:06.137 (6964): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-09-16 15:51:06.137 (24156): Session1: QueryExecute:
+2017-09-16 15:51:06.137 (24156): (create column [Extract].[Extract].[Mu-Xt-C] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ))
+2017-09-16 15:51:06.138 (24156): Compiling query with Memory Budget=4242432000
+2017-09-16 15:51:06.150 (24156): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-09-16 15:51:06.150 (6964): Session1: QueryExecute:
+2017-09-16 15:51:06.150 (6964): (create column [Extract].[Extract].[St] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2017-09-16 15:51:06.150 (6964): Compiling query with Memory Budget=4242423808
+2017-09-16 15:51:06.161 (6964): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-09-16 15:51:06.165 (24156): Session1: InsertOpen: table="Extract" schema="Extract"
+2017-09-16 15:51:06.165 (24156):   column[0]="DAY"
+2017-09-16 15:51:06.165 (24156):   column[1]="YEAR"
+2017-09-16 15:51:06.165 (24156):   column[2]="TEMP"
+2017-09-16 15:51:06.165 (24156):   column[3]="RecordID"
+2017-09-16 15:51:06.165 (24156):   column[4]="Mu"
+2017-09-16 15:51:06.165 (24156):   column[5]="C"
+2017-09-16 15:51:06.165 (24156):   column[6]="Mu-Xt-C"
+2017-09-16 15:51:06.165 (24156):   column[7]="St"
+2017-09-16 15:51:06.178 (6964): Session1: InsertPutValues: total_calls=1 total_message_size=327208
+2017-09-16 15:51:06.254 (24156): Session1: InsertCommit: insert_guid=1 total_calls=1 total_message_size=327208
+2017-09-16 15:51:06.254 (24156): Session1: InsertCommit: OK
+2017-09-16 15:51:06.254 (6964): Session1: InsertClose: insert_guid=1
+2017-09-16 15:51:06.254 (6964): Session1: InsertClose: OK
+2017-09-16 15:51:06.255 (24156): Session1: QueryExecute:
+2017-09-16 15:51:06.255 (24156): (package)
+2017-09-16 15:51:06.255 (24156): Compiling query with Memory Budget=4239060992
+2017-09-16 15:51:06.255 (24156): PackageDatabase: in-place package of "C:\Git\isye6501x-intro-to-analytics-modeling\week-3\temps.tde"
+2017-09-16 15:51:06.304 (24156): PackageDatabase: finished
+2017-09-16 15:51:06.304 (24156): Session1: QueryExecute: OK, Elapsed time:0.049s, Compilation time:0.000s, Execution time:0.049s
+2017-09-16 15:51:06.304 (6964): Session1: QueryExecute:
+2017-09-16 15:51:06.304 (6964): (database "C:\\Git\\isye6501x-intro-to-analytics-modeling\\week-3\\temps.tde")
+2017-09-16 15:51:06.305 (6964): Compiling query with Memory Budget=4239560704
+2017-09-16 15:51:06.305 (6964): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.000s
+2017-09-16 15:51:06.305 (24156): Session1: QueryExecute:
+2017-09-16 15:51:06.305 (24156): (show schemas)
+2017-09-16 15:51:06.305 (24156): Compiling query with Memory Budget=4239548416
+2017-09-16 15:51:06.305 (24156): Session1: QueryExecute: OK rowset_guid=2 n_columns=1, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-09-16 15:51:06.305 (6964): Session1: RowsetGetValues:
+2017-09-16 15:51:06.305 (24156): Session1: RowsetGetValues:
+2017-09-16 15:51:06.305 (6964): Session1: RowsetClose:
+2017-09-16 15:51:06.305 (24156): Session1: QueryExecute:
+2017-09-16 15:51:06.305 (24156): (show tables [Extract])
+2017-09-16 15:51:06.306 (24156): Compiling query with Memory Budget=4239527936
+2017-09-16 15:51:06.308 (24156): Session1: QueryExecute: OK rowset_guid=3 n_columns=1, Elapsed time:0.002s, Compilation time:0.000s, Execution time:0.002s
+2017-09-16 15:51:06.310 (6964): Session1: RowsetGetValues:
+2017-09-16 15:51:06.310 (24156): Session1: RowsetGetValues:
+2017-09-16 15:51:06.310 (6964): Session1: RowsetClose:
+2017-09-16 15:51:06.310 (24156): Session1: QueryExecute:
+2017-09-16 15:51:06.310 (24156): (top (table [Extract].[Extract]) () 0)
+2017-09-16 15:51:06.321 (24156): Compiling query with DOP=2
+2017-09-16 15:51:06.321 (24156): Compiling query with Memory Budget=4238958592
+2017-09-16 15:51:06.321 (24156): Session1: QueryExecute: OK rowset_guid=4 n_columns=8, Elapsed time:0.011s, Compilation time:0.011s, Execution time:0.000s
+2017-09-16 15:51:06.322 (6964): Session1: RowsetClose:
+2017-09-16 15:51:06.322 (24156): Session1: QueryExecute:
+2017-09-16 15:51:06.322 (24156): (alter column [Extract].[Extract].[DAY] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:51:06.323 (24156): Compiling query with Memory Budget=4239593472
+2017-09-16 15:51:06.360 (24156): Session1: QueryExecute: OK, Elapsed time:0.037s, Compilation time:0.000s, Execution time:0.037s
+2017-09-16 15:51:06.360 (6964): Session1: QueryExecute:
+2017-09-16 15:51:06.360 (6964): (alter column [Extract].[Extract].[YEAR] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:51:06.360 (6964): Compiling query with Memory Budget=4239613952
+2017-09-16 15:51:06.366 (6964): Session1: QueryExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.006s
+2017-09-16 15:51:06.366 (24156): Session1: QueryExecute:
+2017-09-16 15:51:06.366 (24156): (alter column [Extract].[Extract].[TEMP] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:51:06.366 (24156): Compiling query with Memory Budget=4239613952
+2017-09-16 15:51:06.376 (24156): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-09-16 15:51:06.377 (6964): Session1: QueryExecute:
+2017-09-16 15:51:06.377 (6964): (alter column [Extract].[Extract].[RecordID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:51:06.377 (6964): Compiling query with Memory Budget=4239601664
+2017-09-16 15:51:06.391 (6964): Session1: QueryExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.014s
+2017-09-16 15:51:06.391 (24156): Session1: QueryExecute:
+2017-09-16 15:51:06.391 (24156): (alter column [Extract].[Extract].[Mu] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:51:06.392 (24156): Compiling query with Memory Budget=4239601664
+2017-09-16 15:51:06.401 (24156): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-09-16 15:51:06.401 (6964): Session1: QueryExecute:
+2017-09-16 15:51:06.401 (6964): (alter column [Extract].[Extract].[C] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:51:06.402 (6964): Compiling query with Memory Budget=4239601664
+2017-09-16 15:51:06.413 (6964): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.011s
+2017-09-16 15:51:06.413 (24156): Session1: QueryExecute:
+2017-09-16 15:51:06.413 (24156): (alter column [Extract].[Extract].[Mu-Xt-C] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:51:06.414 (24156): Compiling query with Memory Budget=4239601664
+2017-09-16 15:51:06.423 (24156): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-09-16 15:51:06.423 (6964): Session1: QueryExecute:
+2017-09-16 15:51:06.423 (6964): (alter column [Extract].[Extract].[St] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:51:06.423 (6964): Compiling query with Memory Budget=4239601664
+2017-09-16 15:51:06.433 (6964): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-09-16 15:51:06.434 (24156): Session1: QueryExecute:
+2017-09-16 15:51:06.434 (24156): (top (table [Extract].[Extract]) () 0)
+2017-09-16 15:51:06.435 (24156): Compiling query with DOP=2
+2017-09-16 15:51:06.436 (24156): Compiling query with Memory Budget=4239601664
+2017-09-16 15:51:06.438 (24156): Session1: QueryExecute: OK rowset_guid=5 n_columns=8, Elapsed time:0.004s, Compilation time:0.002s, Execution time:0.002s
+2017-09-16 15:51:06.438 (6964): Session1: RowsetClose:
+2017-09-16 15:51:06.438 (24156): Session1: QueryExecute:
+2017-09-16 15:51:06.438 (24156): (sort [Extract].[Extract] ( ( [YEAR] asc) ( [TEMP] asc) ( [Mu-Xt-C] asc) ( [DAY] asc) ( [RecordID] asc) ( [St] asc) ) )
+2017-09-16 15:51:06.439 (24156): Compiling query with Memory Budget=4239601664
+2017-09-16 15:51:06.506 (24156): Session1: QueryExecute: OK, Elapsed time:0.067s, Compilation time:0.000s, Execution time:0.067s
+2017-09-16 15:51:06.506 (6964): Session1: QueryExecute:
+2017-09-16 15:51:06.506 (6964): (package)
+2017-09-16 15:51:06.506 (6964): Compiling query with Memory Budget=4239581184
+2017-09-16 15:51:06.506 (6964): PackageDatabase: in-place package of "C:\Git\isye6501x-intro-to-analytics-modeling\week-3\temps.tde"
+2017-09-16 15:51:06.531 (6964): PackageDatabase: finished
+2017-09-16 15:51:06.532 (6964): Session1: QueryExecute: OK, Elapsed time:0.026s, Compilation time:0.000s, Execution time:0.026s
+2017-09-16 15:51:06.532 (26060): tdeserver: close session, connection=tab.pipe://./pipe/{E42BF641-838B-4FA5-B0C8-8EACDC4435F0}, sess_guid=1
+2017-09-16 15:51:06.532 (6472): tdeserver: closing connection, connection=tab.pipe://./pipe/{E42BF641-838B-4FA5-B0C8-8EACDC4435F0}
+2017-09-16 15:51:06.532 (5648): endthread: send, connection=tab.pipe://./pipe/{E42BF641-838B-4FA5-B0C8-8EACDC4435F0}
+2017-09-16 15:51:06.532 (26060): tdeserver: connection dead: The pipe has been ended.
+2017-09-16 15:51:06.532 (26060):  - IPC_NamedPipe::Recv(ReadFile)
+2017-09-16 15:51:06.532 (26060): endthread: recv, connection=tab.pipe://./pipe/{E42BF641-838B-4FA5-B0C8-8EACDC4435F0}
+2017-09-16 15:51:06.533 (6472): tdeserver: exit (0)
+2017-09-16 15:51:57.215 (27276): -----------------------------------------------------------------------------
+2017-09-16 15:51:57.215 (27276): Initializing fault reporting
+2017-09-16 15:51:57.215 (27276): Fault reporting log pathname: C:\Git\isye6501x-intro-to-analytics-modeling\week-4\tdeserver64-error00002088.log
+2017-09-16 15:51:57.215 (27276): Initializing MiniDump
+2017-09-16 15:51:57.215 (27276): Loading 'DbgHelp.dll'
+2017-09-16 15:51:57.215 (27276): Loaded 'C:\Windows\system32\dbghelp.dll'
+2017-09-16 15:51:57.216 (27276):   Product Name: Microsoft® Windows® Operating System
+2017-09-16 15:51:57.216 (27276):   File Version: 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+2017-09-16 15:51:57.216 (27276):   Product Version: 6.1.7601.17514
+2017-09-16 15:51:57.216 (27276): Finding function 'MiniDumpWriteDump'
+2017-09-16 15:51:57.216 (27276): Success
+2017-09-16 15:51:57.216 (27276): Registering unhandled exception filter
+2017-09-16 15:51:57.216 (27276): -----------------------------------------------------------------------------
+2017-09-16 15:51:57.216 (27276): argv[0]="C:\Users\swagner\AppData\Local\Alteryx\bin\tdeserver64.exe"
+2017-09-16 15:51:57.216 (27276): argv[1]="--callback"
+2017-09-16 15:51:57.216 (27276): argv[2]="tab.pipe://./pipe/{907EAEE8-DD5A-4552-B21F-9B28DF4791FC}"
+2017-09-16 15:51:57.216 (27276): argv[3]="--listen"
+2017-09-16 15:51:57.216 (27276): argv[4]="tab.pipe://./pipe/auto"
+2017-09-16 15:51:57.216 (27276): argv[5]="--desktop"
+2017-09-16 15:51:57.216 (27276): argv[6]="--log"
+2017-09-16 15:51:57.216 (27276): argv[7]="C:\Git\isye6501x-intro-to-analytics-modeling\week-4\DataExtract.log"
+2017-09-16 15:51:57.216 (27276): pid=8328
+2017-09-16 15:51:57.216 (27276): Machine Configuration
+2017-09-16 15:51:57.216 (27276):   Max Descriptors: -1
+2017-09-16 15:51:57.216 (27276): Vectorization Support
+2017-09-16 15:51:57.216 (27276):   Supports SSE:    Yes
+2017-09-16 15:51:57.216 (27276):   Supports SSE2:   Yes
+2017-09-16 15:51:57.216 (27276):   Supports SSE3:   Yes
+2017-09-16 15:51:57.216 (27276):   Supports SSE4.1: Yes
+2017-09-16 15:51:57.216 (27276):   Supports SSE4.2: Yes
+2017-09-16 15:51:57.216 (27276):   Supports AVX:    Yes
+2017-09-16 15:51:57.216 (27276):   Supports AVX2:   Yes
+2017-09-16 15:51:57.216 (27276): Adjusted Parallelism Values
+2017-09-16 15:51:57.216 (27276):   CPUs available to process: 4
+2017-09-16 15:51:57.216 (27276):   max-concurrency:           2
+2017-09-16 15:51:57.216 (27276):   query-parallelism:         2
+2017-09-16 15:51:57.216 (27276):   min-query-parallelism:     2
+2017-09-16 15:51:57.217 (27276): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{1C780A22-156A-4FE2-9E37-23BB324C80D2}
+2017-09-16 15:51:57.217 (27276): tdeserver: accepting new connection
+2017-09-16 15:51:57.217 (15996): beginthread: recv, connection=tab.pipe://./pipe/{1C780A22-156A-4FE2-9E37-23BB324C80D2}
+2017-09-16 15:51:57.217 (27276): tdeserver: new connection, connection=tab.pipe://./pipe/{1C780A22-156A-4FE2-9E37-23BB324C80D2}
+2017-09-16 15:51:57.217 (12452): beginthread: send, connection=tab.pipe://./pipe/{1C780A22-156A-4FE2-9E37-23BB324C80D2}
+2017-09-16 15:51:57.218 (15996): tdeserver: open session, connection=tab.pipe://./pipe/{1C780A22-156A-4FE2-9E37-23BB324C80D2}, sess_guid=1
+2017-09-16 15:51:57.218 (17012): Session1: QueryExecute:
+2017-09-16 15:51:57.218 (17012): (create database "C:\\Git\\isye6501x-intro-to-analytics-modeling\\week-3\\temps.tde")
+2017-09-16 15:51:57.518 (17012): Compiling query with Memory Budget=4257968128
+2017-09-16 15:51:57.518 (17012): Session1: QueryExecute: OK, Elapsed time:0.300s, Compilation time:0.300s, Execution time:0.000s
+2017-09-16 15:51:57.518 (26936): Session1: QueryExecute:
+2017-09-16 15:51:57.518 (26936): (create schema [Extract])
+2017-09-16 15:51:57.519 (26936): Compiling query with Memory Budget=4257878016
+2017-09-16 15:51:57.538 (26936): Session1: QueryExecute: OK, Elapsed time:0.019s, Compilation time:0.000s, Execution time:0.019s
+2017-09-16 15:51:57.538 (17012): Session1: QueryExecute:
+2017-09-16 15:51:57.538 (17012): (create table [Extract].[Extract])
+2017-09-16 15:51:57.538 (17012): Compiling query with Memory Budget=4257759232
+2017-09-16 15:51:57.562 (17012): Session1: QueryExecute: OK, Elapsed time:0.024s, Compilation time:0.000s, Execution time:0.024s
+2017-09-16 15:51:57.562 (26936): Session1: QueryExecute:
+2017-09-16 15:51:57.562 (26936): (create column [Extract].[Extract].[DAY] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-09-16 15:51:57.565 (26936): Compiling query with Memory Budget=4257685504
+2017-09-16 15:51:57.594 (26936): Session1: QueryExecute: OK, Elapsed time:0.032s, Compilation time:0.002s, Execution time:0.030s
+2017-09-16 15:51:57.594 (17012): Session1: QueryExecute:
+2017-09-16 15:51:57.594 (17012): (create column [Extract].[Extract].[YEAR] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-09-16 15:51:57.595 (17012): Compiling query with Memory Budget=4257656832
+2017-09-16 15:51:57.608 (17012): Session1: QueryExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.014s
+2017-09-16 15:51:57.608 (26936): Session1: QueryExecute:
+2017-09-16 15:51:57.608 (26936): (create column [Extract].[Extract].[TEMP] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "2" ) ))
+2017-09-16 15:51:57.609 (26936): Compiling query with Memory Budget=4257656832
+2017-09-16 15:51:57.623 (26936): Session1: QueryExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.014s
+2017-09-16 15:51:57.623 (17012): Session1: QueryExecute:
+2017-09-16 15:51:57.623 (17012): (create column [Extract].[Extract].[RecordID] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "3" ) ))
+2017-09-16 15:51:57.623 (17012): Compiling query with Memory Budget=4257660928
+2017-09-16 15:51:57.634 (17012): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-09-16 15:51:57.635 (26936): Session1: QueryExecute:
+2017-09-16 15:51:57.635 (26936): (create column [Extract].[Extract].[Mu] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ))
+2017-09-16 15:51:57.635 (26936): Compiling query with Memory Budget=4257656832
+2017-09-16 15:51:57.653 (26936): Session1: QueryExecute: OK, Elapsed time:0.018s, Compilation time:0.000s, Execution time:0.017s
+2017-09-16 15:51:57.653 (17012): Session1: QueryExecute:
+2017-09-16 15:51:57.653 (17012): (create column [Extract].[Extract].[C] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2017-09-16 15:51:57.653 (17012): Compiling query with Memory Budget=4257660928
+2017-09-16 15:51:57.660 (17012): Session1: QueryExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-09-16 15:51:57.660 (26936): Session1: QueryExecute:
+2017-09-16 15:51:57.660 (26936): (create column [Extract].[Extract].[Mu-Xt-C] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ))
+2017-09-16 15:51:57.661 (26936): Compiling query with Memory Budget=4257665024
+2017-09-16 15:51:57.672 (26936): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.011s
+2017-09-16 15:51:57.672 (17012): Session1: QueryExecute:
+2017-09-16 15:51:57.672 (17012): (create column [Extract].[Extract].[St] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2017-09-16 15:51:57.672 (17012): Compiling query with Memory Budget=4257669120
+2017-09-16 15:51:57.685 (17012): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-09-16 15:51:57.690 (26936): Session1: InsertOpen: table="Extract" schema="Extract"
+2017-09-16 15:51:57.690 (26936):   column[0]="DAY"
+2017-09-16 15:51:57.690 (26936):   column[1]="YEAR"
+2017-09-16 15:51:57.690 (26936):   column[2]="TEMP"
+2017-09-16 15:51:57.690 (26936):   column[3]="RecordID"
+2017-09-16 15:51:57.690 (26936):   column[4]="Mu"
+2017-09-16 15:51:57.690 (26936):   column[5]="C"
+2017-09-16 15:51:57.690 (26936):   column[6]="Mu-Xt-C"
+2017-09-16 15:51:57.690 (26936):   column[7]="St"
+2017-09-16 15:51:57.700 (17012): Session1: InsertPutValues: total_calls=1 total_message_size=309784
+2017-09-16 15:51:57.790 (26936): Session1: InsertCommit: insert_guid=1 total_calls=1 total_message_size=309784
+2017-09-16 15:51:57.790 (26936): Session1: InsertCommit: OK
+2017-09-16 15:51:57.790 (17012): Session1: InsertClose: insert_guid=1
+2017-09-16 15:51:57.790 (17012): Session1: InsertClose: OK
+2017-09-16 15:51:57.790 (26936): Session1: QueryExecute:
+2017-09-16 15:51:57.790 (26936): (package)
+2017-09-16 15:51:57.790 (26936): Compiling query with Memory Budget=4254040064
+2017-09-16 15:51:57.791 (26936): PackageDatabase: in-place package of "C:\Git\isye6501x-intro-to-analytics-modeling\week-3\temps.tde"
+2017-09-16 15:51:57.852 (26936): PackageDatabase: finished
+2017-09-16 15:51:57.852 (26936): Session1: QueryExecute: OK, Elapsed time:0.062s, Compilation time:0.000s, Execution time:0.062s
+2017-09-16 15:51:57.853 (17012): Session1: QueryExecute:
+2017-09-16 15:51:57.853 (17012): (database "C:\\Git\\isye6501x-intro-to-analytics-modeling\\week-3\\temps.tde")
+2017-09-16 15:51:57.854 (17012): Compiling query with Memory Budget=4255649792
+2017-09-16 15:51:57.854 (17012): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.000s
+2017-09-16 15:51:57.854 (26936): Session1: QueryExecute:
+2017-09-16 15:51:57.854 (26936): (show schemas)
+2017-09-16 15:51:57.854 (26936): Compiling query with Memory Budget=4255637504
+2017-09-16 15:51:57.854 (26936): Session1: QueryExecute: OK rowset_guid=2 n_columns=1, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-09-16 15:51:57.855 (17012): Session1: RowsetGetValues:
+2017-09-16 15:51:57.855 (26936): Session1: RowsetGetValues:
+2017-09-16 15:51:57.855 (17012): Session1: RowsetClose:
+2017-09-16 15:51:57.855 (26936): Session1: QueryExecute:
+2017-09-16 15:51:57.855 (26936): (show tables [Extract])
+2017-09-16 15:51:57.855 (26936): Compiling query with Memory Budget=4255617024
+2017-09-16 15:51:57.856 (26936): Session1: QueryExecute: OK rowset_guid=3 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-09-16 15:51:57.856 (17012): Session1: RowsetGetValues:
+2017-09-16 15:51:57.856 (26936): Session1: RowsetGetValues:
+2017-09-16 15:51:57.856 (17012): Session1: RowsetClose:
+2017-09-16 15:51:57.856 (26936): Session1: QueryExecute:
+2017-09-16 15:51:57.856 (26936): (top (table [Extract].[Extract]) () 0)
+2017-09-16 15:51:57.863 (26936): Compiling query with DOP=2
+2017-09-16 15:51:57.863 (26936): Compiling query with Memory Budget=4255035392
+2017-09-16 15:51:57.864 (26936): Session1: QueryExecute: OK rowset_guid=4 n_columns=8, Elapsed time:0.007s, Compilation time:0.007s, Execution time:0.000s
+2017-09-16 15:51:57.864 (17012): Session1: RowsetClose:
+2017-09-16 15:51:57.865 (26936): Session1: QueryExecute:
+2017-09-16 15:51:57.865 (26936): (alter column [Extract].[Extract].[DAY] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:51:57.865 (26936): Compiling query with Memory Budget=4255125504
+2017-09-16 15:51:57.888 (26936): Session1: QueryExecute: OK, Elapsed time:0.024s, Compilation time:0.000s, Execution time:0.023s
+2017-09-16 15:51:57.888 (17012): Session1: QueryExecute:
+2017-09-16 15:51:57.888 (17012): (alter column [Extract].[Extract].[YEAR] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:51:57.889 (17012): Compiling query with Memory Budget=4254560256
+2017-09-16 15:51:57.894 (17012): Session1: QueryExecute: OK, Elapsed time:0.006s, Compilation time:0.000s, Execution time:0.005s
+2017-09-16 15:51:57.894 (26936): Session1: QueryExecute:
+2017-09-16 15:51:57.894 (26936): (alter column [Extract].[Extract].[TEMP] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:51:57.894 (26936): Compiling query with Memory Budget=4254560256
+2017-09-16 15:51:57.905 (26936): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-09-16 15:51:57.906 (17012): Session1: QueryExecute:
+2017-09-16 15:51:57.906 (17012): (alter column [Extract].[Extract].[RecordID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:51:57.906 (17012): Compiling query with Memory Budget=4254330880
+2017-09-16 15:51:57.919 (17012): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-09-16 15:51:57.919 (26936): Session1: QueryExecute:
+2017-09-16 15:51:57.919 (26936): (alter column [Extract].[Extract].[Mu] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:51:57.919 (26936): Compiling query with Memory Budget=4254330880
+2017-09-16 15:51:57.927 (26936): Session1: QueryExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2017-09-16 15:51:57.928 (17012): Session1: QueryExecute:
+2017-09-16 15:51:57.928 (17012): (alter column [Extract].[Extract].[C] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:51:57.928 (17012): Compiling query with Memory Budget=4254326784
+2017-09-16 15:51:57.939 (17012): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-09-16 15:51:57.939 (26936): Session1: QueryExecute:
+2017-09-16 15:51:57.939 (26936): (alter column [Extract].[Extract].[Mu-Xt-C] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:51:57.939 (26936): Compiling query with Memory Budget=4254326784
+2017-09-16 15:51:57.951 (26936): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-09-16 15:51:57.951 (17012): Session1: QueryExecute:
+2017-09-16 15:51:57.951 (17012): (alter column [Extract].[Extract].[St] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:51:57.951 (17012): Compiling query with Memory Budget=4254326784
+2017-09-16 15:51:57.959 (17012): Session1: QueryExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2017-09-16 15:51:57.960 (26936): Session1: QueryExecute:
+2017-09-16 15:51:57.960 (26936): (top (table [Extract].[Extract]) () 0)
+2017-09-16 15:51:57.960 (26936): Compiling query with DOP=2
+2017-09-16 15:51:57.961 (26936): Compiling query with Memory Budget=4254318592
+2017-09-16 15:51:57.962 (26936): Session1: QueryExecute: OK rowset_guid=5 n_columns=8, Elapsed time:0.002s, Compilation time:0.001s, Execution time:0.001s
+2017-09-16 15:51:57.963 (17012): Session1: RowsetClose:
+2017-09-16 15:51:57.963 (26936): Session1: QueryExecute:
+2017-09-16 15:51:57.963 (26936): (sort [Extract].[Extract] ( ( [YEAR] asc) ( [TEMP] asc) ( [Mu-Xt-C] asc) ( [DAY] asc) ( [RecordID] asc) ( [St] asc) ) )
+2017-09-16 15:51:57.963 (26936): Compiling query with Memory Budget=4254318592
+2017-09-16 15:51:58.032 (26936): Session1: QueryExecute: OK, Elapsed time:0.069s, Compilation time:0.000s, Execution time:0.069s
+2017-09-16 15:51:58.033 (17012): Session1: QueryExecute:
+2017-09-16 15:51:58.033 (17012): (package)
+2017-09-16 15:51:58.033 (17012): Compiling query with Memory Budget=4255318016
+2017-09-16 15:51:58.033 (17012): PackageDatabase: in-place package of "C:\Git\isye6501x-intro-to-analytics-modeling\week-3\temps.tde"
+2017-09-16 15:51:58.067 (17012): PackageDatabase: finished
+2017-09-16 15:51:58.067 (17012): Session1: QueryExecute: OK, Elapsed time:0.034s, Compilation time:0.000s, Execution time:0.034s
+2017-09-16 15:51:58.067 (15996): tdeserver: close session, connection=tab.pipe://./pipe/{1C780A22-156A-4FE2-9E37-23BB324C80D2}, sess_guid=1
+2017-09-16 15:51:58.067 (27276): tdeserver: closing connection, connection=tab.pipe://./pipe/{1C780A22-156A-4FE2-9E37-23BB324C80D2}
+2017-09-16 15:51:58.067 (12452): endthread: send, connection=tab.pipe://./pipe/{1C780A22-156A-4FE2-9E37-23BB324C80D2}
+2017-09-16 15:51:58.067 (15996): tdeserver: connection dead: The pipe has been ended.
+2017-09-16 15:51:58.067 (15996):  - IPC_NamedPipe::Recv(ReadFile)
+2017-09-16 15:51:58.067 (15996): endthread: recv, connection=tab.pipe://./pipe/{1C780A22-156A-4FE2-9E37-23BB324C80D2}
+2017-09-16 15:51:58.068 (27276): tdeserver: exit (0)
+2017-09-16 15:53:14.795 (18780): -----------------------------------------------------------------------------
+2017-09-16 15:53:14.795 (18780): Initializing fault reporting
+2017-09-16 15:53:14.795 (18780): Fault reporting log pathname: C:\Git\isye6501x-intro-to-analytics-modeling\week-4\tdeserver64-error00006268.log
+2017-09-16 15:53:14.795 (18780): Initializing MiniDump
+2017-09-16 15:53:14.795 (18780): Loading 'DbgHelp.dll'
+2017-09-16 15:53:14.796 (18780): Loaded 'C:\Windows\system32\dbghelp.dll'
+2017-09-16 15:53:14.796 (18780):   Product Name: Microsoft® Windows® Operating System
+2017-09-16 15:53:14.796 (18780):   File Version: 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+2017-09-16 15:53:14.796 (18780):   Product Version: 6.1.7601.17514
+2017-09-16 15:53:14.796 (18780): Finding function 'MiniDumpWriteDump'
+2017-09-16 15:53:14.796 (18780): Success
+2017-09-16 15:53:14.796 (18780): Registering unhandled exception filter
+2017-09-16 15:53:14.797 (18780): -----------------------------------------------------------------------------
+2017-09-16 15:53:14.797 (18780): argv[0]="C:\Users\swagner\AppData\Local\Alteryx\bin\tdeserver64.exe"
+2017-09-16 15:53:14.797 (18780): argv[1]="--callback"
+2017-09-16 15:53:14.797 (18780): argv[2]="tab.pipe://./pipe/{59902797-17E5-43A7-ACBC-CAC06EC57BE3}"
+2017-09-16 15:53:14.797 (18780): argv[3]="--listen"
+2017-09-16 15:53:14.797 (18780): argv[4]="tab.pipe://./pipe/auto"
+2017-09-16 15:53:14.797 (18780): argv[5]="--desktop"
+2017-09-16 15:53:14.797 (18780): argv[6]="--log"
+2017-09-16 15:53:14.797 (18780): argv[7]="C:\Git\isye6501x-intro-to-analytics-modeling\week-4\DataExtract.log"
+2017-09-16 15:53:14.797 (18780): pid=25192
+2017-09-16 15:53:14.797 (18780): Machine Configuration
+2017-09-16 15:53:14.797 (18780):   Max Descriptors: -1
+2017-09-16 15:53:14.797 (18780): Vectorization Support
+2017-09-16 15:53:14.797 (18780):   Supports SSE:    Yes
+2017-09-16 15:53:14.797 (18780):   Supports SSE2:   Yes
+2017-09-16 15:53:14.797 (18780):   Supports SSE3:   Yes
+2017-09-16 15:53:14.797 (18780):   Supports SSE4.1: Yes
+2017-09-16 15:53:14.797 (18780):   Supports SSE4.2: Yes
+2017-09-16 15:53:14.797 (18780):   Supports AVX:    Yes
+2017-09-16 15:53:14.797 (18780):   Supports AVX2:   Yes
+2017-09-16 15:53:14.797 (18780): Adjusted Parallelism Values
+2017-09-16 15:53:14.797 (18780):   CPUs available to process: 4
+2017-09-16 15:53:14.797 (18780):   max-concurrency:           2
+2017-09-16 15:53:14.797 (18780):   query-parallelism:         2
+2017-09-16 15:53:14.797 (18780):   min-query-parallelism:     2
+2017-09-16 15:53:14.798 (18780): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{FF648BD9-19FE-4F33-8952-6C09A98100BE}
+2017-09-16 15:53:14.798 (18780): tdeserver: accepting new connection
+2017-09-16 15:53:14.798 (24100): beginthread: recv, connection=tab.pipe://./pipe/{FF648BD9-19FE-4F33-8952-6C09A98100BE}
+2017-09-16 15:53:14.798 (18780): tdeserver: new connection, connection=tab.pipe://./pipe/{FF648BD9-19FE-4F33-8952-6C09A98100BE}
+2017-09-16 15:53:14.799 (13100): beginthread: send, connection=tab.pipe://./pipe/{FF648BD9-19FE-4F33-8952-6C09A98100BE}
+2017-09-16 15:53:14.799 (24100): tdeserver: open session, connection=tab.pipe://./pipe/{FF648BD9-19FE-4F33-8952-6C09A98100BE}, sess_guid=1
+2017-09-16 15:53:14.799 (15852): Session1: QueryExecute:
+2017-09-16 15:53:14.799 (15852): (create database "C:\\Git\\isye6501x-intro-to-analytics-modeling\\week-3\\temps.tde")
+2017-09-16 15:53:15.124 (15852): Compiling query with Memory Budget=4227424256
+2017-09-16 15:53:15.124 (15852): Session1: QueryExecute: OK, Elapsed time:0.325s, Compilation time:0.324s, Execution time:0.000s
+2017-09-16 15:53:15.124 (21788): Session1: QueryExecute:
+2017-09-16 15:53:15.124 (21788): (create schema [Extract])
+2017-09-16 15:53:15.124 (21788): Compiling query with Memory Budget=4227334144
+2017-09-16 15:53:15.144 (21788): Session1: QueryExecute: OK, Elapsed time:0.020s, Compilation time:0.000s, Execution time:0.020s
+2017-09-16 15:53:15.145 (15852): Session1: QueryExecute:
+2017-09-16 15:53:15.145 (15852): (create table [Extract].[Extract])
+2017-09-16 15:53:15.145 (15852): Compiling query with Memory Budget=4227559424
+2017-09-16 15:53:15.169 (15852): Session1: QueryExecute: OK, Elapsed time:0.024s, Compilation time:0.000s, Execution time:0.024s
+2017-09-16 15:53:15.169 (21788): Session1: QueryExecute:
+2017-09-16 15:53:15.169 (21788): (create column [Extract].[Extract].[DAY] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-09-16 15:53:15.172 (21788): Compiling query with Memory Budget=4227485696
+2017-09-16 15:53:15.199 (21788): Session1: QueryExecute: OK, Elapsed time:0.030s, Compilation time:0.003s, Execution time:0.027s
+2017-09-16 15:53:15.199 (15852): Session1: QueryExecute:
+2017-09-16 15:53:15.199 (15852): (create column [Extract].[Extract].[YEAR] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-09-16 15:53:15.200 (15852): Compiling query with Memory Budget=4227440640
+2017-09-16 15:53:15.209 (15852): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-09-16 15:53:15.209 (21788): Session1: QueryExecute:
+2017-09-16 15:53:15.209 (21788): (create column [Extract].[Extract].[TEMP] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "2" ) ))
+2017-09-16 15:53:15.209 (21788): Compiling query with Memory Budget=4227457024
+2017-09-16 15:53:15.218 (21788): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-09-16 15:53:15.219 (15852): Session1: QueryExecute:
+2017-09-16 15:53:15.219 (15852): (create column [Extract].[Extract].[RecordID] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "3" ) ))
+2017-09-16 15:53:15.219 (15852): Compiling query with Memory Budget=4227457024
+2017-09-16 15:53:15.231 (15852): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-09-16 15:53:15.232 (21788): Session1: QueryExecute:
+2017-09-16 15:53:15.232 (21788): (create column [Extract].[Extract].[Mu] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ))
+2017-09-16 15:53:15.232 (21788): Compiling query with Memory Budget=4227457024
+2017-09-16 15:53:15.240 (21788): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-09-16 15:53:15.241 (15852): Session1: QueryExecute:
+2017-09-16 15:53:15.241 (15852): (create column [Extract].[Extract].[C] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2017-09-16 15:53:15.241 (15852): Compiling query with Memory Budget=4227457024
+2017-09-16 15:53:15.250 (15852): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-09-16 15:53:15.250 (21788): Session1: QueryExecute:
+2017-09-16 15:53:15.250 (21788): (create column [Extract].[Extract].[Mu-Xt-C] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ))
+2017-09-16 15:53:15.250 (21788): Compiling query with Memory Budget=4227452928
+2017-09-16 15:53:15.260 (21788): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-09-16 15:53:15.260 (15852): Session1: QueryExecute:
+2017-09-16 15:53:15.260 (15852): (create column [Extract].[Extract].[St] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2017-09-16 15:53:15.260 (15852): Compiling query with Memory Budget=4227452928
+2017-09-16 15:53:15.272 (15852): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-09-16 15:53:15.277 (21788): Session1: InsertOpen: table="Extract" schema="Extract"
+2017-09-16 15:53:15.277 (21788):   column[0]="DAY"
+2017-09-16 15:53:15.277 (21788):   column[1]="YEAR"
+2017-09-16 15:53:15.277 (21788):   column[2]="TEMP"
+2017-09-16 15:53:15.277 (21788):   column[3]="RecordID"
+2017-09-16 15:53:15.277 (21788):   column[4]="Mu"
+2017-09-16 15:53:15.277 (21788):   column[5]="C"
+2017-09-16 15:53:15.277 (21788):   column[6]="Mu-Xt-C"
+2017-09-16 15:53:15.277 (21788):   column[7]="St"
+2017-09-16 15:53:15.291 (15852): Session1: InsertPutValues: total_calls=1 total_message_size=443480
+2017-09-16 15:53:15.369 (21788): Session1: InsertCommit: insert_guid=1 total_calls=1 total_message_size=443480
+2017-09-16 15:53:15.369 (21788): Session1: InsertCommit: OK
+2017-09-16 15:53:15.369 (15852): Session1: InsertClose: insert_guid=1
+2017-09-16 15:53:15.369 (15852): Session1: InsertClose: OK
+2017-09-16 15:53:15.370 (21788): Session1: QueryExecute:
+2017-09-16 15:53:15.370 (21788): (package)
+2017-09-16 15:53:15.370 (21788): Compiling query with Memory Budget=4225626112
+2017-09-16 15:53:15.370 (21788): PackageDatabase: in-place package of "C:\Git\isye6501x-intro-to-analytics-modeling\week-3\temps.tde"
+2017-09-16 15:53:15.409 (21788): PackageDatabase: finished
+2017-09-16 15:53:15.409 (21788): Session1: QueryExecute: OK, Elapsed time:0.040s, Compilation time:0.000s, Execution time:0.040s
+2017-09-16 15:53:15.409 (15852): Session1: QueryExecute:
+2017-09-16 15:53:15.409 (15852): (database "C:\\Git\\isye6501x-intro-to-analytics-modeling\\week-3\\temps.tde")
+2017-09-16 15:53:15.410 (15852): Compiling query with Memory Budget=4226248704
+2017-09-16 15:53:15.410 (15852): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.000s
+2017-09-16 15:53:15.410 (21788): Session1: QueryExecute:
+2017-09-16 15:53:15.410 (21788): (show schemas)
+2017-09-16 15:53:15.410 (21788): Compiling query with Memory Budget=4226236416
+2017-09-16 15:53:15.412 (21788): Session1: QueryExecute: OK rowset_guid=2 n_columns=1, Elapsed time:0.002s, Compilation time:0.000s, Execution time:0.002s
+2017-09-16 15:53:15.412 (15852): Session1: RowsetGetValues:
+2017-09-16 15:53:15.412 (21788): Session1: RowsetGetValues:
+2017-09-16 15:53:15.413 (15852): Session1: RowsetClose:
+2017-09-16 15:53:15.413 (21788): Session1: QueryExecute:
+2017-09-16 15:53:15.413 (21788): (show tables [Extract])
+2017-09-16 15:53:15.413 (21788): Compiling query with Memory Budget=4226220032
+2017-09-16 15:53:15.414 (21788): Session1: QueryExecute: OK rowset_guid=3 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-09-16 15:53:15.414 (15852): Session1: RowsetGetValues:
+2017-09-16 15:53:15.414 (21788): Session1: RowsetGetValues:
+2017-09-16 15:53:15.414 (15852): Session1: RowsetClose:
+2017-09-16 15:53:15.415 (21788): Session1: QueryExecute:
+2017-09-16 15:53:15.415 (21788): (top (table [Extract].[Extract]) () 0)
+2017-09-16 15:53:15.426 (21788): Compiling query with DOP=2
+2017-09-16 15:53:15.426 (21788): Compiling query with Memory Budget=4225642496
+2017-09-16 15:53:15.426 (21788): Session1: QueryExecute: OK rowset_guid=4 n_columns=8, Elapsed time:0.012s, Compilation time:0.011s, Execution time:0.000s
+2017-09-16 15:53:15.428 (15852): Session1: RowsetClose:
+2017-09-16 15:53:15.428 (21788): Session1: QueryExecute:
+2017-09-16 15:53:15.428 (21788): (alter column [Extract].[Extract].[DAY] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:53:15.428 (21788): Compiling query with Memory Budget=4225630208
+2017-09-16 15:53:15.448 (21788): Session1: QueryExecute: OK, Elapsed time:0.020s, Compilation time:0.000s, Execution time:0.019s
+2017-09-16 15:53:15.448 (15852): Session1: QueryExecute:
+2017-09-16 15:53:15.448 (15852): (alter column [Extract].[Extract].[YEAR] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:53:15.448 (15852): Compiling query with Memory Budget=4225634304
+2017-09-16 15:53:15.457 (15852): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-09-16 15:53:15.457 (21788): Session1: QueryExecute:
+2017-09-16 15:53:15.457 (21788): (alter column [Extract].[Extract].[TEMP] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:53:15.457 (21788): Compiling query with Memory Budget=4225634304
+2017-09-16 15:53:15.471 (21788): Session1: QueryExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.014s
+2017-09-16 15:53:15.471 (15852): Session1: QueryExecute:
+2017-09-16 15:53:15.471 (15852): (alter column [Extract].[Extract].[RecordID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:53:15.471 (15852): Compiling query with Memory Budget=4225404928
+2017-09-16 15:53:15.482 (15852): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-09-16 15:53:15.483 (21788): Session1: QueryExecute:
+2017-09-16 15:53:15.483 (21788): (alter column [Extract].[Extract].[Mu] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:53:15.483 (21788): Compiling query with Memory Budget=4225409024
+2017-09-16 15:53:15.497 (21788): Session1: QueryExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.014s
+2017-09-16 15:53:15.497 (15852): Session1: QueryExecute:
+2017-09-16 15:53:15.497 (15852): (alter column [Extract].[Extract].[C] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:53:15.497 (15852): Compiling query with Memory Budget=4225404928
+2017-09-16 15:53:15.509 (15852): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-09-16 15:53:15.509 (21788): Session1: QueryExecute:
+2017-09-16 15:53:15.509 (21788): (alter column [Extract].[Extract].[Mu-Xt-C] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:53:15.510 (21788): Compiling query with Memory Budget=4225409024
+2017-09-16 15:53:15.523 (21788): Session1: QueryExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.014s
+2017-09-16 15:53:15.524 (15852): Session1: QueryExecute:
+2017-09-16 15:53:15.524 (15852): (alter column [Extract].[Extract].[St] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:53:15.524 (15852): Compiling query with Memory Budget=4225380352
+2017-09-16 15:53:15.539 (15852): Session1: QueryExecute: OK, Elapsed time:0.015s, Compilation time:0.000s, Execution time:0.015s
+2017-09-16 15:53:15.539 (21788): Session1: QueryExecute:
+2017-09-16 15:53:15.539 (21788): (top (table [Extract].[Extract]) () 0)
+2017-09-16 15:53:15.540 (21788): Compiling query with DOP=2
+2017-09-16 15:53:15.540 (21788): Compiling query with Memory Budget=4225376256
+2017-09-16 15:53:15.542 (21788): Session1: QueryExecute: OK rowset_guid=5 n_columns=8, Elapsed time:0.003s, Compilation time:0.002s, Execution time:0.002s
+2017-09-16 15:53:15.543 (15852): Session1: RowsetClose:
+2017-09-16 15:53:15.543 (21788): Session1: QueryExecute:
+2017-09-16 15:53:15.543 (21788): (sort [Extract].[Extract] ( ( [YEAR] asc) ( [TEMP] asc) ( [Mu-Xt-C] asc) ( [DAY] asc) ( [RecordID] asc) ( [St] asc) ) )
+2017-09-16 15:53:15.543 (21788): Compiling query with Memory Budget=4225376256
+2017-09-16 15:53:15.623 (21788): Session1: QueryExecute: OK, Elapsed time:0.080s, Compilation time:0.000s, Execution time:0.079s
+2017-09-16 15:53:15.623 (15852): Session1: QueryExecute:
+2017-09-16 15:53:15.623 (15852): (package)
+2017-09-16 15:53:15.623 (15852): Compiling query with Memory Budget=4225384448
+2017-09-16 15:53:15.623 (15852): PackageDatabase: in-place package of "C:\Git\isye6501x-intro-to-analytics-modeling\week-3\temps.tde"
+2017-09-16 15:53:15.658 (15852): PackageDatabase: finished
+2017-09-16 15:53:15.658 (15852): Session1: QueryExecute: OK, Elapsed time:0.035s, Compilation time:0.000s, Execution time:0.035s
+2017-09-16 15:53:15.658 (24100): tdeserver: close session, connection=tab.pipe://./pipe/{FF648BD9-19FE-4F33-8952-6C09A98100BE}, sess_guid=1
+2017-09-16 15:53:15.658 (18780): tdeserver: closing connection, connection=tab.pipe://./pipe/{FF648BD9-19FE-4F33-8952-6C09A98100BE}
+2017-09-16 15:53:15.658 (13100): endthread: send, connection=tab.pipe://./pipe/{FF648BD9-19FE-4F33-8952-6C09A98100BE}
+2017-09-16 15:53:15.658 (24100): tdeserver: connection dead: The pipe has been ended.
+2017-09-16 15:53:15.658 (24100):  - IPC_NamedPipe::Recv(ReadFile)
+2017-09-16 15:53:15.658 (24100): endthread: recv, connection=tab.pipe://./pipe/{FF648BD9-19FE-4F33-8952-6C09A98100BE}
+2017-09-16 15:53:15.658 (18780): tdeserver: exit (0)
+2017-09-16 15:54:10.155 (18364): -----------------------------------------------------------------------------
+2017-09-16 15:54:10.155 (18364): Initializing fault reporting
+2017-09-16 15:54:10.155 (18364): Fault reporting log pathname: C:\Git\isye6501x-intro-to-analytics-modeling\week-4\tdeserver64-error00004024.log
+2017-09-16 15:54:10.155 (18364): Initializing MiniDump
+2017-09-16 15:54:10.155 (18364): Loading 'DbgHelp.dll'
+2017-09-16 15:54:10.155 (18364): Loaded 'C:\Windows\system32\dbghelp.dll'
+2017-09-16 15:54:10.156 (18364):   Product Name: Microsoft® Windows® Operating System
+2017-09-16 15:54:10.156 (18364):   File Version: 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+2017-09-16 15:54:10.156 (18364):   Product Version: 6.1.7601.17514
+2017-09-16 15:54:10.156 (18364): Finding function 'MiniDumpWriteDump'
+2017-09-16 15:54:10.156 (18364): Success
+2017-09-16 15:54:10.156 (18364): Registering unhandled exception filter
+2017-09-16 15:54:10.156 (18364): -----------------------------------------------------------------------------
+2017-09-16 15:54:10.156 (18364): argv[0]="C:\Users\swagner\AppData\Local\Alteryx\bin\tdeserver64.exe"
+2017-09-16 15:54:10.156 (18364): argv[1]="--callback"
+2017-09-16 15:54:10.156 (18364): argv[2]="tab.pipe://./pipe/{82AAFA6F-76CF-4687-8180-691E827A41AE}"
+2017-09-16 15:54:10.156 (18364): argv[3]="--listen"
+2017-09-16 15:54:10.156 (18364): argv[4]="tab.pipe://./pipe/auto"
+2017-09-16 15:54:10.156 (18364): argv[5]="--desktop"
+2017-09-16 15:54:10.156 (18364): argv[6]="--log"
+2017-09-16 15:54:10.156 (18364): argv[7]="C:\Git\isye6501x-intro-to-analytics-modeling\week-4\DataExtract.log"
+2017-09-16 15:54:10.156 (18364): pid=16420
+2017-09-16 15:54:10.156 (18364): Machine Configuration
+2017-09-16 15:54:10.156 (18364):   Max Descriptors: -1
+2017-09-16 15:54:10.156 (18364): Vectorization Support
+2017-09-16 15:54:10.156 (18364):   Supports SSE:    Yes
+2017-09-16 15:54:10.156 (18364):   Supports SSE2:   Yes
+2017-09-16 15:54:10.156 (18364):   Supports SSE3:   Yes
+2017-09-16 15:54:10.156 (18364):   Supports SSE4.1: Yes
+2017-09-16 15:54:10.156 (18364):   Supports SSE4.2: Yes
+2017-09-16 15:54:10.156 (18364):   Supports AVX:    Yes
+2017-09-16 15:54:10.156 (18364):   Supports AVX2:   Yes
+2017-09-16 15:54:10.156 (18364): Adjusted Parallelism Values
+2017-09-16 15:54:10.156 (18364):   CPUs available to process: 4
+2017-09-16 15:54:10.156 (18364):   max-concurrency:           2
+2017-09-16 15:54:10.156 (18364):   query-parallelism:         2
+2017-09-16 15:54:10.156 (18364):   min-query-parallelism:     2
+2017-09-16 15:54:10.157 (18364): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{54966055-2A06-4535-BCBB-ECFD0FAD64F0}
+2017-09-16 15:54:10.157 (18364): tdeserver: accepting new connection
+2017-09-16 15:54:10.157 (28176): beginthread: recv, connection=tab.pipe://./pipe/{54966055-2A06-4535-BCBB-ECFD0FAD64F0}
+2017-09-16 15:54:10.157 (18364): tdeserver: new connection, connection=tab.pipe://./pipe/{54966055-2A06-4535-BCBB-ECFD0FAD64F0}
+2017-09-16 15:54:10.157 (10196): beginthread: send, connection=tab.pipe://./pipe/{54966055-2A06-4535-BCBB-ECFD0FAD64F0}
+2017-09-16 15:54:10.157 (28176): tdeserver: open session, connection=tab.pipe://./pipe/{54966055-2A06-4535-BCBB-ECFD0FAD64F0}, sess_guid=1
+2017-09-16 15:54:10.157 (3092): Session1: QueryExecute:
+2017-09-16 15:54:10.157 (3092): (create database "C:\\Git\\isye6501x-intro-to-analytics-modeling\\week-3\\temps.tde")
+2017-09-16 15:54:10.532 (3092): Compiling query with Memory Budget=4239622144
+2017-09-16 15:54:10.532 (3092): Session1: QueryExecute: OK, Elapsed time:0.375s, Compilation time:0.375s, Execution time:0.000s
+2017-09-16 15:54:10.532 (4136): Session1: QueryExecute:
+2017-09-16 15:54:10.532 (4136): (create schema [Extract])
+2017-09-16 15:54:10.532 (4136): Compiling query with Memory Budget=4239532032
+2017-09-16 15:54:10.558 (4136): Session1: QueryExecute: OK, Elapsed time:0.025s, Compilation time:0.000s, Execution time:0.025s
+2017-09-16 15:54:10.558 (3092): Session1: QueryExecute:
+2017-09-16 15:54:10.558 (3092): (create table [Extract].[Extract])
+2017-09-16 15:54:10.558 (3092): Compiling query with Memory Budget=4239380480
+2017-09-16 15:54:10.588 (3092): Session1: QueryExecute: OK, Elapsed time:0.030s, Compilation time:0.000s, Execution time:0.030s
+2017-09-16 15:54:10.588 (4136): Session1: QueryExecute:
+2017-09-16 15:54:10.588 (4136): (create column [Extract].[Extract].[DAY] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-09-16 15:54:10.590 (4136): Compiling query with Memory Budget=4239306752
+2017-09-16 15:54:10.620 (4136): Session1: QueryExecute: OK, Elapsed time:0.032s, Compilation time:0.002s, Execution time:0.029s
+2017-09-16 15:54:10.620 (3092): Session1: QueryExecute:
+2017-09-16 15:54:10.620 (3092): (create column [Extract].[Extract].[YEAR] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-09-16 15:54:10.620 (3092): Compiling query with Memory Budget=4239282176
+2017-09-16 15:54:10.630 (3092): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-09-16 15:54:10.630 (4136): Session1: QueryExecute:
+2017-09-16 15:54:10.630 (4136): (create column [Extract].[Extract].[TEMP] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "2" ) ))
+2017-09-16 15:54:10.630 (4136): Compiling query with Memory Budget=4239278080
+2017-09-16 15:54:10.645 (4136): Session1: QueryExecute: OK, Elapsed time:0.015s, Compilation time:0.000s, Execution time:0.015s
+2017-09-16 15:54:10.645 (3092): Session1: QueryExecute:
+2017-09-16 15:54:10.645 (3092): (create column [Extract].[Extract].[RecordID] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "3" ) ))
+2017-09-16 15:54:10.645 (3092): Compiling query with Memory Budget=4235112448
+2017-09-16 15:54:10.657 (3092): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-09-16 15:54:10.657 (4136): Session1: QueryExecute:
+2017-09-16 15:54:10.657 (4136): (create column [Extract].[Extract].[Mu] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ))
+2017-09-16 15:54:10.657 (4136): Compiling query with Memory Budget=4234993664
+2017-09-16 15:54:10.673 (4136): Session1: QueryExecute: OK, Elapsed time:0.015s, Compilation time:0.000s, Execution time:0.015s
+2017-09-16 15:54:10.673 (3092): Session1: QueryExecute:
+2017-09-16 15:54:10.673 (3092): (create column [Extract].[Extract].[C] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2017-09-16 15:54:10.673 (3092): Compiling query with Memory Budget=4234932224
+2017-09-16 15:54:10.682 (3092): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-09-16 15:54:10.682 (4136): Session1: QueryExecute:
+2017-09-16 15:54:10.682 (4136): (create column [Extract].[Extract].[Mu-Xt-C] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ))
+2017-09-16 15:54:10.682 (4136): Compiling query with Memory Budget=4234092544
+2017-09-16 15:54:10.698 (4136): Session1: QueryExecute: OK, Elapsed time:0.016s, Compilation time:0.000s, Execution time:0.016s
+2017-09-16 15:54:10.698 (3092): Session1: QueryExecute:
+2017-09-16 15:54:10.698 (3092): (create column [Extract].[Extract].[St] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2017-09-16 15:54:10.698 (3092): Compiling query with Memory Budget=4234084352
+2017-09-16 15:54:10.711 (3092): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-09-16 15:54:10.716 (4136): Session1: InsertOpen: table="Extract" schema="Extract"
+2017-09-16 15:54:10.716 (4136):   column[0]="DAY"
+2017-09-16 15:54:10.716 (4136):   column[1]="YEAR"
+2017-09-16 15:54:10.716 (4136):   column[2]="TEMP"
+2017-09-16 15:54:10.716 (4136):   column[3]="RecordID"
+2017-09-16 15:54:10.716 (4136):   column[4]="Mu"
+2017-09-16 15:54:10.716 (4136):   column[5]="C"
+2017-09-16 15:54:10.716 (4136):   column[6]="Mu-Xt-C"
+2017-09-16 15:54:10.716 (4136):   column[7]="St"
+2017-09-16 15:54:10.730 (3092): Session1: InsertPutValues: total_calls=1 total_message_size=327208
+2017-09-16 15:54:10.826 (4136): Session1: InsertCommit: insert_guid=1 total_calls=1 total_message_size=327208
+2017-09-16 15:54:10.826 (4136): Session1: InsertCommit: OK
+2017-09-16 15:54:10.826 (3092): Session1: InsertClose: insert_guid=1
+2017-09-16 15:54:10.826 (3092): Session1: InsertClose: OK
+2017-09-16 15:54:10.826 (4136): Session1: QueryExecute:
+2017-09-16 15:54:10.826 (4136): (package)
+2017-09-16 15:54:10.826 (4136): Compiling query with Memory Budget=4232757248
+2017-09-16 15:54:10.827 (4136): PackageDatabase: in-place package of "C:\Git\isye6501x-intro-to-analytics-modeling\week-3\temps.tde"
+2017-09-16 15:54:10.889 (4136): PackageDatabase: finished
+2017-09-16 15:54:10.889 (4136): Session1: QueryExecute: OK, Elapsed time:0.063s, Compilation time:0.000s, Execution time:0.063s
+2017-09-16 15:54:10.889 (3092): Session1: QueryExecute:
+2017-09-16 15:54:10.889 (3092): (database "C:\\Git\\isye6501x-intro-to-analytics-modeling\\week-3\\temps.tde")
+2017-09-16 15:54:10.891 (3092): Compiling query with Memory Budget=4233097216
+2017-09-16 15:54:10.891 (3092): Session1: QueryExecute: OK, Elapsed time:0.002s, Compilation time:0.001s, Execution time:0.000s
+2017-09-16 15:54:10.891 (4136): Session1: QueryExecute:
+2017-09-16 15:54:10.891 (4136): (show schemas)
+2017-09-16 15:54:10.891 (4136): Compiling query with Memory Budget=4233084928
+2017-09-16 15:54:10.892 (4136): Session1: QueryExecute: OK rowset_guid=2 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-09-16 15:54:10.892 (3092): Session1: RowsetGetValues:
+2017-09-16 15:54:10.892 (4136): Session1: RowsetGetValues:
+2017-09-16 15:54:10.892 (3092): Session1: RowsetClose:
+2017-09-16 15:54:10.892 (4136): Session1: QueryExecute:
+2017-09-16 15:54:10.892 (4136): (show tables [Extract])
+2017-09-16 15:54:10.892 (4136): Compiling query with Memory Budget=4233064448
+2017-09-16 15:54:10.894 (4136): Session1: QueryExecute: OK rowset_guid=3 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-09-16 15:54:10.894 (3092): Session1: RowsetGetValues:
+2017-09-16 15:54:10.894 (4136): Session1: RowsetGetValues:
+2017-09-16 15:54:10.894 (3092): Session1: RowsetClose:
+2017-09-16 15:54:10.894 (4136): Session1: QueryExecute:
+2017-09-16 15:54:10.894 (4136): (top (table [Extract].[Extract]) () 0)
+2017-09-16 15:54:10.905 (4136): Compiling query with DOP=2
+2017-09-16 15:54:10.905 (4136): Compiling query with Memory Budget=4232482816
+2017-09-16 15:54:10.905 (4136): Session1: QueryExecute: OK rowset_guid=4 n_columns=8, Elapsed time:0.011s, Compilation time:0.011s, Execution time:0.000s
+2017-09-16 15:54:10.906 (3092): Session1: RowsetClose:
+2017-09-16 15:54:10.906 (4136): Session1: QueryExecute:
+2017-09-16 15:54:10.906 (4136): (alter column [Extract].[Extract].[DAY] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:54:10.907 (4136): Compiling query with Memory Budget=4233080832
+2017-09-16 15:54:10.923 (4136): Session1: QueryExecute: OK, Elapsed time:0.017s, Compilation time:0.000s, Execution time:0.017s
+2017-09-16 15:54:10.924 (3092): Session1: QueryExecute:
+2017-09-16 15:54:10.924 (3092): (alter column [Extract].[Extract].[YEAR] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:54:10.924 (3092): Compiling query with Memory Budget=4233068544
+2017-09-16 15:54:10.934 (3092): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-09-16 15:54:10.934 (4136): Session1: QueryExecute:
+2017-09-16 15:54:10.934 (4136): (alter column [Extract].[Extract].[TEMP] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:54:10.935 (4136): Compiling query with Memory Budget=4233068544
+2017-09-16 15:54:10.950 (4136): Session1: QueryExecute: OK, Elapsed time:0.015s, Compilation time:0.000s, Execution time:0.015s
+2017-09-16 15:54:10.950 (3092): Session1: QueryExecute:
+2017-09-16 15:54:10.950 (3092): (alter column [Extract].[Extract].[RecordID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:54:10.950 (3092): Compiling query with Memory Budget=4232839168
+2017-09-16 15:54:10.964 (3092): Session1: QueryExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.014s
+2017-09-16 15:54:10.964 (4136): Session1: QueryExecute:
+2017-09-16 15:54:10.964 (4136): (alter column [Extract].[Extract].[Mu] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:54:10.965 (4136): Compiling query with Memory Budget=4232839168
+2017-09-16 15:54:10.977 (4136): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-09-16 15:54:10.978 (3092): Session1: QueryExecute:
+2017-09-16 15:54:10.978 (3092): (alter column [Extract].[Extract].[C] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:54:10.978 (3092): Compiling query with Memory Budget=4232835072
+2017-09-16 15:54:10.992 (3092): Session1: QueryExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.014s
+2017-09-16 15:54:10.992 (4136): Session1: QueryExecute:
+2017-09-16 15:54:10.992 (4136): (alter column [Extract].[Extract].[Mu-Xt-C] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:54:10.992 (4136): Compiling query with Memory Budget=4232835072
+2017-09-16 15:54:11.004 (4136): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-09-16 15:54:11.004 (3092): Session1: QueryExecute:
+2017-09-16 15:54:11.004 (3092): (alter column [Extract].[Extract].[St] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:54:11.005 (3092): Compiling query with Memory Budget=4232835072
+2017-09-16 15:54:11.015 (3092): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-09-16 15:54:11.015 (4136): Session1: QueryExecute:
+2017-09-16 15:54:11.015 (4136): (top (table [Extract].[Extract]) () 0)
+2017-09-16 15:54:11.017 (4136): Compiling query with DOP=2
+2017-09-16 15:54:11.017 (4136): Compiling query with Memory Budget=4232826880
+2017-09-16 15:54:11.020 (4136): Session1: QueryExecute: OK rowset_guid=5 n_columns=8, Elapsed time:0.004s, Compilation time:0.002s, Execution time:0.002s
+2017-09-16 15:54:11.020 (3092): Session1: RowsetClose:
+2017-09-16 15:54:11.021 (4136): Session1: QueryExecute:
+2017-09-16 15:54:11.021 (4136): (sort [Extract].[Extract] ( ( [YEAR] asc) ( [TEMP] asc) ( [Mu-Xt-C] asc) ( [DAY] asc) ( [RecordID] asc) ( [St] asc) ) )
+2017-09-16 15:54:11.021 (4136): Compiling query with Memory Budget=4232826880
+2017-09-16 15:54:11.097 (4136): Session1: QueryExecute: OK, Elapsed time:0.076s, Compilation time:0.000s, Execution time:0.076s
+2017-09-16 15:54:11.097 (3092): Session1: QueryExecute:
+2017-09-16 15:54:11.097 (3092): (package)
+2017-09-16 15:54:11.097 (3092): Compiling query with Memory Budget=4232806400
+2017-09-16 15:54:11.098 (3092): PackageDatabase: in-place package of "C:\Git\isye6501x-intro-to-analytics-modeling\week-3\temps.tde"
+2017-09-16 15:54:11.138 (3092): PackageDatabase: finished
+2017-09-16 15:54:11.138 (3092): Session1: QueryExecute: OK, Elapsed time:0.041s, Compilation time:0.000s, Execution time:0.041s
+2017-09-16 15:54:11.138 (28176): tdeserver: close session, connection=tab.pipe://./pipe/{54966055-2A06-4535-BCBB-ECFD0FAD64F0}, sess_guid=1
+2017-09-16 15:54:11.138 (18364): tdeserver: closing connection, connection=tab.pipe://./pipe/{54966055-2A06-4535-BCBB-ECFD0FAD64F0}
+2017-09-16 15:54:11.138 (10196): endthread: send, connection=tab.pipe://./pipe/{54966055-2A06-4535-BCBB-ECFD0FAD64F0}
+2017-09-16 15:54:11.138 (28176): tdeserver: connection dead: The pipe has been ended.
+2017-09-16 15:54:11.138 (28176):  - IPC_NamedPipe::Recv(ReadFile)
+2017-09-16 15:54:11.138 (28176): endthread: recv, connection=tab.pipe://./pipe/{54966055-2A06-4535-BCBB-ECFD0FAD64F0}
+2017-09-16 15:54:11.138 (18364): tdeserver: exit (0)
+2017-09-16 15:54:37.234 (24024): -----------------------------------------------------------------------------
+2017-09-16 15:54:37.234 (24024): Initializing fault reporting
+2017-09-16 15:54:37.234 (24024): Fault reporting log pathname: C:\Git\isye6501x-intro-to-analytics-modeling\week-4\tdeserver64-error00004e84.log
+2017-09-16 15:54:37.234 (24024): Initializing MiniDump
+2017-09-16 15:54:37.234 (24024): Loading 'DbgHelp.dll'
+2017-09-16 15:54:37.234 (24024): Loaded 'C:\Windows\system32\dbghelp.dll'
+2017-09-16 15:54:37.234 (24024):   Product Name: Microsoft® Windows® Operating System
+2017-09-16 15:54:37.234 (24024):   File Version: 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+2017-09-16 15:54:37.234 (24024):   Product Version: 6.1.7601.17514
+2017-09-16 15:54:37.234 (24024): Finding function 'MiniDumpWriteDump'
+2017-09-16 15:54:37.234 (24024): Success
+2017-09-16 15:54:37.234 (24024): Registering unhandled exception filter
+2017-09-16 15:54:37.235 (24024): -----------------------------------------------------------------------------
+2017-09-16 15:54:37.235 (24024): argv[0]="C:\Users\swagner\AppData\Local\Alteryx\bin\tdeserver64.exe"
+2017-09-16 15:54:37.235 (24024): argv[1]="--callback"
+2017-09-16 15:54:37.235 (24024): argv[2]="tab.pipe://./pipe/{214CB9F0-8EDC-4D7D-BA0A-535CE6FFAAD6}"
+2017-09-16 15:54:37.235 (24024): argv[3]="--listen"
+2017-09-16 15:54:37.235 (24024): argv[4]="tab.pipe://./pipe/auto"
+2017-09-16 15:54:37.235 (24024): argv[5]="--desktop"
+2017-09-16 15:54:37.235 (24024): argv[6]="--log"
+2017-09-16 15:54:37.235 (24024): argv[7]="C:\Git\isye6501x-intro-to-analytics-modeling\week-4\DataExtract.log"
+2017-09-16 15:54:37.235 (24024): pid=20100
+2017-09-16 15:54:37.235 (24024): Machine Configuration
+2017-09-16 15:54:37.235 (24024):   Max Descriptors: -1
+2017-09-16 15:54:37.235 (24024): Vectorization Support
+2017-09-16 15:54:37.235 (24024):   Supports SSE:    Yes
+2017-09-16 15:54:37.235 (24024):   Supports SSE2:   Yes
+2017-09-16 15:54:37.235 (24024):   Supports SSE3:   Yes
+2017-09-16 15:54:37.235 (24024):   Supports SSE4.1: Yes
+2017-09-16 15:54:37.235 (24024):   Supports SSE4.2: Yes
+2017-09-16 15:54:37.235 (24024):   Supports AVX:    Yes
+2017-09-16 15:54:37.235 (24024):   Supports AVX2:   Yes
+2017-09-16 15:54:37.235 (24024): Adjusted Parallelism Values
+2017-09-16 15:54:37.235 (24024):   CPUs available to process: 4
+2017-09-16 15:54:37.235 (24024):   max-concurrency:           2
+2017-09-16 15:54:37.235 (24024):   query-parallelism:         2
+2017-09-16 15:54:37.235 (24024):   min-query-parallelism:     2
+2017-09-16 15:54:37.236 (24024): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{2CB36FA4-8465-4BAB-8E3F-8AEA918777AD}
+2017-09-16 15:54:37.236 (24024): tdeserver: accepting new connection
+2017-09-16 15:54:37.236 (22424): beginthread: recv, connection=tab.pipe://./pipe/{2CB36FA4-8465-4BAB-8E3F-8AEA918777AD}
+2017-09-16 15:54:37.236 (24024): tdeserver: new connection, connection=tab.pipe://./pipe/{2CB36FA4-8465-4BAB-8E3F-8AEA918777AD}
+2017-09-16 15:54:37.236 (9800): beginthread: send, connection=tab.pipe://./pipe/{2CB36FA4-8465-4BAB-8E3F-8AEA918777AD}
+2017-09-16 15:54:37.236 (22424): tdeserver: open session, connection=tab.pipe://./pipe/{2CB36FA4-8465-4BAB-8E3F-8AEA918777AD}, sess_guid=1
+2017-09-16 15:54:37.236 (24408): Session1: QueryExecute:
+2017-09-16 15:54:37.236 (24408): (create database "C:\\Git\\isye6501x-intro-to-analytics-modeling\\week-3\\temps.tde")
+2017-09-16 15:54:37.725 (24408): Compiling query with Memory Budget=4071686144
+2017-09-16 15:54:37.725 (24408): Session1: QueryExecute: OK, Elapsed time:0.488s, Compilation time:0.488s, Execution time:0.000s
+2017-09-16 15:54:37.725 (18312): Session1: QueryExecute:
+2017-09-16 15:54:37.725 (18312): (create schema [Extract])
+2017-09-16 15:54:37.725 (18312): Compiling query with Memory Budget=4071288832
+2017-09-16 15:54:37.758 (18312): Session1: QueryExecute: OK, Elapsed time:0.032s, Compilation time:0.000s, Execution time:0.032s
+2017-09-16 15:54:37.758 (24408): Session1: QueryExecute:
+2017-09-16 15:54:37.758 (24408): (create table [Extract].[Extract])
+2017-09-16 15:54:37.758 (24408): Compiling query with Memory Budget=4069154816
+2017-09-16 15:54:37.792 (24408): Session1: QueryExecute: OK, Elapsed time:0.034s, Compilation time:0.000s, Execution time:0.034s
+2017-09-16 15:54:37.792 (18312): Session1: QueryExecute:
+2017-09-16 15:54:37.792 (18312): (create column [Extract].[Extract].[DAY] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-09-16 15:54:37.795 (18312): Compiling query with Memory Budget=4067799040
+2017-09-16 15:54:37.837 (18312): Session1: QueryExecute: OK, Elapsed time:0.044s, Compilation time:0.003s, Execution time:0.041s
+2017-09-16 15:54:37.837 (24408): Session1: QueryExecute:
+2017-09-16 15:54:37.837 (24408): (create column [Extract].[Extract].[YEAR] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-09-16 15:54:37.837 (24408): Compiling query with Memory Budget=4067594240
+2017-09-16 15:54:37.855 (24408): Session1: QueryExecute: OK, Elapsed time:0.018s, Compilation time:0.000s, Execution time:0.018s
+2017-09-16 15:54:37.855 (18312): Session1: QueryExecute:
+2017-09-16 15:54:37.855 (18312): (create column [Extract].[Extract].[TEMP] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "2" ) ))
+2017-09-16 15:54:37.856 (18312): Compiling query with Memory Budget=4066754560
+2017-09-16 15:54:37.871 (18312): Session1: QueryExecute: OK, Elapsed time:0.015s, Compilation time:0.000s, Execution time:0.015s
+2017-09-16 15:54:37.871 (24408): Session1: QueryExecute:
+2017-09-16 15:54:37.871 (24408): (create column [Extract].[Extract].[RecordID] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "3" ) ))
+2017-09-16 15:54:37.872 (24408): Compiling query with Memory Budget=4066373632
+2017-09-16 15:54:37.895 (24408): Session1: QueryExecute: OK, Elapsed time:0.023s, Compilation time:0.000s, Execution time:0.023s
+2017-09-16 15:54:37.895 (18312): Session1: QueryExecute:
+2017-09-16 15:54:37.895 (18312): (create column [Extract].[Extract].[Mu] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ))
+2017-09-16 15:54:37.895 (18312): Compiling query with Memory Budget=4065890304
+2017-09-16 15:54:37.913 (18312): Session1: QueryExecute: OK, Elapsed time:0.018s, Compilation time:0.000s, Execution time:0.017s
+2017-09-16 15:54:37.913 (24408): Session1: QueryExecute:
+2017-09-16 15:54:37.913 (24408): (create column [Extract].[Extract].[C] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2017-09-16 15:54:37.913 (24408): Compiling query with Memory Budget=4066111488
+2017-09-16 15:54:37.931 (24408): Session1: QueryExecute: OK, Elapsed time:0.018s, Compilation time:0.000s, Execution time:0.018s
+2017-09-16 15:54:37.932 (18312): Session1: QueryExecute:
+2017-09-16 15:54:37.932 (18312): (create column [Extract].[Extract].[Mu-Xt-C] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ))
+2017-09-16 15:54:37.932 (18312): Compiling query with Memory Budget=4064722944
+2017-09-16 15:54:37.955 (18312): Session1: QueryExecute: OK, Elapsed time:0.023s, Compilation time:0.000s, Execution time:0.023s
+2017-09-16 15:54:37.955 (24408): Session1: QueryExecute:
+2017-09-16 15:54:37.955 (24408): (create column [Extract].[Extract].[St] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2017-09-16 15:54:37.955 (24408): Compiling query with Memory Budget=4064378880
+2017-09-16 15:54:37.971 (24408): Session1: QueryExecute: OK, Elapsed time:0.016s, Compilation time:0.000s, Execution time:0.016s
+2017-09-16 15:54:37.981 (18312): Session1: InsertOpen: table="Extract" schema="Extract"
+2017-09-16 15:54:37.981 (18312):   column[0]="DAY"
+2017-09-16 15:54:37.981 (18312):   column[1]="YEAR"
+2017-09-16 15:54:37.981 (18312):   column[2]="TEMP"
+2017-09-16 15:54:37.981 (18312):   column[3]="RecordID"
+2017-09-16 15:54:37.981 (18312):   column[4]="Mu"
+2017-09-16 15:54:37.981 (18312):   column[5]="C"
+2017-09-16 15:54:37.981 (18312):   column[6]="Mu-Xt-C"
+2017-09-16 15:54:37.981 (18312):   column[7]="St"
+2017-09-16 15:54:38.000 (24408): Session1: InsertPutValues: total_calls=1 total_message_size=327208
+2017-09-16 15:54:38.139 (18312): Session1: InsertCommit: insert_guid=1 total_calls=1 total_message_size=327208
+2017-09-16 15:54:38.139 (18312): Session1: InsertCommit: OK
+2017-09-16 15:54:38.140 (24408): Session1: InsertClose: insert_guid=1
+2017-09-16 15:54:38.140 (24408): Session1: InsertClose: OK
+2017-09-16 15:54:38.140 (18312): Session1: QueryExecute:
+2017-09-16 15:54:38.140 (18312): (package)
+2017-09-16 15:54:38.140 (18312): Compiling query with Memory Budget=4058701824
+2017-09-16 15:54:38.140 (18312): PackageDatabase: in-place package of "C:\Git\isye6501x-intro-to-analytics-modeling\week-3\temps.tde"
+2017-09-16 15:54:38.251 (18312): PackageDatabase: finished
+2017-09-16 15:54:38.251 (18312): Session1: QueryExecute: OK, Elapsed time:0.111s, Compilation time:0.000s, Execution time:0.111s
+2017-09-16 15:54:38.251 (24408): Session1: QueryExecute:
+2017-09-16 15:54:38.251 (24408): (database "C:\\Git\\isye6501x-intro-to-analytics-modeling\\week-3\\temps.tde")
+2017-09-16 15:54:38.253 (24408): Compiling query with Memory Budget=4059357184
+2017-09-16 15:54:38.253 (24408): Session1: QueryExecute: OK, Elapsed time:0.002s, Compilation time:0.002s, Execution time:0.000s
+2017-09-16 15:54:38.253 (18312): Session1: QueryExecute:
+2017-09-16 15:54:38.253 (18312): (show schemas)
+2017-09-16 15:54:38.253 (18312): Compiling query with Memory Budget=4059054080
+2017-09-16 15:54:38.255 (18312): Session1: QueryExecute: OK rowset_guid=2 n_columns=1, Elapsed time:0.002s, Compilation time:0.000s, Execution time:0.002s
+2017-09-16 15:54:38.257 (24408): Session1: RowsetGetValues:
+2017-09-16 15:54:38.257 (18312): Session1: RowsetGetValues:
+2017-09-16 15:54:38.257 (24408): Session1: RowsetClose:
+2017-09-16 15:54:38.257 (18312): Session1: QueryExecute:
+2017-09-16 15:54:38.257 (18312): (show tables [Extract])
+2017-09-16 15:54:38.257 (18312): Compiling query with Memory Budget=4059148288
+2017-09-16 15:54:38.260 (18312): Session1: QueryExecute: OK rowset_guid=3 n_columns=1, Elapsed time:0.003s, Compilation time:0.000s, Execution time:0.003s
+2017-09-16 15:54:38.260 (24408): Session1: RowsetGetValues:
+2017-09-16 15:54:38.261 (18312): Session1: RowsetGetValues:
+2017-09-16 15:54:38.261 (24408): Session1: RowsetClose:
+2017-09-16 15:54:38.261 (18312): Session1: QueryExecute:
+2017-09-16 15:54:38.261 (18312): (top (table [Extract].[Extract]) () 0)
+2017-09-16 15:54:38.285 (18312): Compiling query with DOP=2
+2017-09-16 15:54:38.286 (18312): Compiling query with Memory Budget=4058284032
+2017-09-16 15:54:38.289 (18312): Session1: QueryExecute: OK rowset_guid=4 n_columns=8, Elapsed time:0.026s, Compilation time:0.024s, Execution time:0.001s
+2017-09-16 15:54:38.291 (24408): Session1: RowsetClose:
+2017-09-16 15:54:38.291 (18312): Session1: QueryExecute:
+2017-09-16 15:54:38.291 (18312): (alter column [Extract].[Extract].[DAY] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:54:38.292 (18312): Compiling query with Memory Budget=4057923584
+2017-09-16 15:54:38.330 (18312): Session1: QueryExecute: OK, Elapsed time:0.038s, Compilation time:0.000s, Execution time:0.037s
+2017-09-16 15:54:38.330 (24408): Session1: QueryExecute:
+2017-09-16 15:54:38.330 (24408): (alter column [Extract].[Extract].[YEAR] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:54:38.330 (24408): Compiling query with Memory Budget=4057382912
+2017-09-16 15:54:38.348 (24408): Session1: QueryExecute: OK, Elapsed time:0.018s, Compilation time:0.000s, Execution time:0.018s
+2017-09-16 15:54:38.348 (18312): Session1: QueryExecute:
+2017-09-16 15:54:38.348 (18312): (alter column [Extract].[Extract].[TEMP] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:54:38.348 (18312): Compiling query with Memory Budget=4057202688
+2017-09-16 15:54:38.372 (18312): Session1: QueryExecute: OK, Elapsed time:0.024s, Compilation time:0.000s, Execution time:0.024s
+2017-09-16 15:54:38.373 (24408): Session1: QueryExecute:
+2017-09-16 15:54:38.373 (24408): (alter column [Extract].[Extract].[RecordID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:54:38.373 (24408): Compiling query with Memory Budget=4056961024
+2017-09-16 15:54:38.399 (24408): Session1: QueryExecute: OK, Elapsed time:0.026s, Compilation time:0.000s, Execution time:0.025s
+2017-09-16 15:54:38.399 (18312): Session1: QueryExecute:
+2017-09-16 15:54:38.399 (18312): (alter column [Extract].[Extract].[Mu] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:54:38.399 (18312): Compiling query with Memory Budget=4056604672
+2017-09-16 15:54:38.419 (18312): Session1: QueryExecute: OK, Elapsed time:0.020s, Compilation time:0.000s, Execution time:0.020s
+2017-09-16 15:54:38.419 (24408): Session1: QueryExecute:
+2017-09-16 15:54:38.419 (24408): (alter column [Extract].[Extract].[C] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:54:38.420 (24408): Compiling query with Memory Budget=4056436736
+2017-09-16 15:54:38.438 (24408): Session1: QueryExecute: OK, Elapsed time:0.019s, Compilation time:0.000s, Execution time:0.019s
+2017-09-16 15:54:38.439 (18312): Session1: QueryExecute:
+2017-09-16 15:54:38.439 (18312): (alter column [Extract].[Extract].[Mu-Xt-C] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:54:38.439 (18312): Compiling query with Memory Budget=4056231936
+2017-09-16 15:54:38.456 (18312): Session1: QueryExecute: OK, Elapsed time:0.018s, Compilation time:0.000s, Execution time:0.018s
+2017-09-16 15:54:38.457 (24408): Session1: QueryExecute:
+2017-09-16 15:54:38.457 (24408): (alter column [Extract].[Extract].[St] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:54:38.457 (24408): Compiling query with Memory Budget=4056879104
+2017-09-16 15:54:38.478 (24408): Session1: QueryExecute: OK, Elapsed time:0.021s, Compilation time:0.000s, Execution time:0.021s
+2017-09-16 15:54:38.479 (18312): Session1: QueryExecute:
+2017-09-16 15:54:38.479 (18312): (top (table [Extract].[Extract]) () 0)
+2017-09-16 15:54:38.480 (18312): Compiling query with DOP=2
+2017-09-16 15:54:38.481 (18312): Compiling query with Memory Budget=4055887872
+2017-09-16 15:54:38.484 (18312): Session1: QueryExecute: OK rowset_guid=5 n_columns=8, Elapsed time:0.004s, Compilation time:0.002s, Execution time:0.002s
+2017-09-16 15:54:38.484 (24408): Session1: RowsetClose:
+2017-09-16 15:54:38.485 (18312): Session1: QueryExecute:
+2017-09-16 15:54:38.485 (18312): (sort [Extract].[Extract] ( ( [YEAR] asc) ( [TEMP] asc) ( [Mu-Xt-C] asc) ( [DAY] asc) ( [RecordID] asc) ( [St] asc) ) )
+2017-09-16 15:54:38.485 (18312): Compiling query with Memory Budget=4055756800
+2017-09-16 15:54:38.603 (18312): Session1: QueryExecute: OK, Elapsed time:0.119s, Compilation time:0.000s, Execution time:0.118s
+2017-09-16 15:54:38.605 (24408): Session1: QueryExecute:
+2017-09-16 15:54:38.605 (24408): (package)
+2017-09-16 15:54:38.605 (24408): Compiling query with Memory Budget=4054159360
+2017-09-16 15:54:38.606 (24408): PackageDatabase: in-place package of "C:\Git\isye6501x-intro-to-analytics-modeling\week-3\temps.tde"
+2017-09-16 15:54:38.658 (24408): PackageDatabase: finished
+2017-09-16 15:54:38.658 (24408): Session1: QueryExecute: OK, Elapsed time:0.054s, Compilation time:0.000s, Execution time:0.054s
+2017-09-16 15:54:38.659 (22424): tdeserver: close session, connection=tab.pipe://./pipe/{2CB36FA4-8465-4BAB-8E3F-8AEA918777AD}, sess_guid=1
+2017-09-16 15:54:38.659 (24024): tdeserver: closing connection, connection=tab.pipe://./pipe/{2CB36FA4-8465-4BAB-8E3F-8AEA918777AD}
+2017-09-16 15:54:38.659 (9800): endthread: send, connection=tab.pipe://./pipe/{2CB36FA4-8465-4BAB-8E3F-8AEA918777AD}
+2017-09-16 15:54:38.659 (22424): tdeserver: connection dead: The pipe has been ended.
+2017-09-16 15:54:38.659 (22424):  - IPC_NamedPipe::Recv(ReadFile)
+2017-09-16 15:54:38.659 (22424): endthread: recv, connection=tab.pipe://./pipe/{2CB36FA4-8465-4BAB-8E3F-8AEA918777AD}
+2017-09-16 15:54:38.659 (24024): tdeserver: exit (0)
+2017-09-16 15:56:50.296 (27868): -----------------------------------------------------------------------------
+2017-09-16 15:56:50.296 (27868): Initializing fault reporting
+2017-09-16 15:56:50.297 (27868): Fault reporting log pathname: C:\Git\isye6501x-intro-to-analytics-modeling\week-4\tdeserver64-error00005cac.log
+2017-09-16 15:56:50.297 (27868): Initializing MiniDump
+2017-09-16 15:56:50.297 (27868): Loading 'DbgHelp.dll'
+2017-09-16 15:56:50.297 (27868): Loaded 'C:\Windows\system32\dbghelp.dll'
+2017-09-16 15:56:50.297 (27868):   Product Name: Microsoft® Windows® Operating System
+2017-09-16 15:56:50.297 (27868):   File Version: 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+2017-09-16 15:56:50.297 (27868):   Product Version: 6.1.7601.17514
+2017-09-16 15:56:50.297 (27868): Finding function 'MiniDumpWriteDump'
+2017-09-16 15:56:50.297 (27868): Success
+2017-09-16 15:56:50.297 (27868): Registering unhandled exception filter
+2017-09-16 15:56:50.298 (27868): -----------------------------------------------------------------------------
+2017-09-16 15:56:50.298 (27868): argv[0]="C:\Users\swagner\AppData\Local\Alteryx\bin\tdeserver64.exe"
+2017-09-16 15:56:50.298 (27868): argv[1]="--callback"
+2017-09-16 15:56:50.298 (27868): argv[2]="tab.pipe://./pipe/{EE5B9F18-3DE7-473C-A47A-2CA7F6243356}"
+2017-09-16 15:56:50.298 (27868): argv[3]="--listen"
+2017-09-16 15:56:50.298 (27868): argv[4]="tab.pipe://./pipe/auto"
+2017-09-16 15:56:50.298 (27868): argv[5]="--desktop"
+2017-09-16 15:56:50.298 (27868): argv[6]="--log"
+2017-09-16 15:56:50.298 (27868): argv[7]="C:\Git\isye6501x-intro-to-analytics-modeling\week-4\DataExtract.log"
+2017-09-16 15:56:50.298 (27868): pid=23724
+2017-09-16 15:56:50.298 (27868): Machine Configuration
+2017-09-16 15:56:50.298 (27868):   Max Descriptors: -1
+2017-09-16 15:56:50.298 (27868): Vectorization Support
+2017-09-16 15:56:50.298 (27868):   Supports SSE:    Yes
+2017-09-16 15:56:50.298 (27868):   Supports SSE2:   Yes
+2017-09-16 15:56:50.298 (27868):   Supports SSE3:   Yes
+2017-09-16 15:56:50.298 (27868):   Supports SSE4.1: Yes
+2017-09-16 15:56:50.298 (27868):   Supports SSE4.2: Yes
+2017-09-16 15:56:50.298 (27868):   Supports AVX:    Yes
+2017-09-16 15:56:50.298 (27868):   Supports AVX2:   Yes
+2017-09-16 15:56:50.298 (27868): Adjusted Parallelism Values
+2017-09-16 15:56:50.298 (27868):   CPUs available to process: 4
+2017-09-16 15:56:50.298 (27868):   max-concurrency:           2
+2017-09-16 15:56:50.298 (27868):   query-parallelism:         2
+2017-09-16 15:56:50.298 (27868):   min-query-parallelism:     2
+2017-09-16 15:56:50.299 (27868): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{12263A0A-0A80-4D3F-ACA8-3752654BB625}
+2017-09-16 15:56:50.299 (27868): tdeserver: accepting new connection
+2017-09-16 15:56:50.299 (27868): tdeserver: new connection, connection=tab.pipe://./pipe/{12263A0A-0A80-4D3F-ACA8-3752654BB625}
+2017-09-16 15:56:50.299 (12820): beginthread: recv, connection=tab.pipe://./pipe/{12263A0A-0A80-4D3F-ACA8-3752654BB625}
+2017-09-16 15:56:50.299 (12820): tdeserver: open session, connection=tab.pipe://./pipe/{12263A0A-0A80-4D3F-ACA8-3752654BB625}, sess_guid=1
+2017-09-16 15:56:50.299 (17892): beginthread: send, connection=tab.pipe://./pipe/{12263A0A-0A80-4D3F-ACA8-3752654BB625}
+2017-09-16 15:56:50.300 (13688): Session1: QueryExecute:
+2017-09-16 15:56:50.300 (13688): (create database "C:\\Git\\isye6501x-intro-to-analytics-modeling\\week-4\\temps.tde")
+2017-09-16 15:56:50.585 (13688): Compiling query with Memory Budget=3923578880
+2017-09-16 15:56:50.585 (13688): Session1: QueryExecute: OK, Elapsed time:0.286s, Compilation time:0.286s, Execution time:0.000s
+2017-09-16 15:56:50.585 (21420): Session1: QueryExecute:
+2017-09-16 15:56:50.585 (21420): (create schema [Extract])
+2017-09-16 15:56:50.585 (21420): Compiling query with Memory Budget=3923488768
+2017-09-16 15:56:50.603 (21420): Session1: QueryExecute: OK, Elapsed time:0.017s, Compilation time:0.000s, Execution time:0.017s
+2017-09-16 15:56:50.603 (13688): Session1: QueryExecute:
+2017-09-16 15:56:50.603 (13688): (create table [Extract].[Extract])
+2017-09-16 15:56:50.603 (13688): Compiling query with Memory Budget=3923386368
+2017-09-16 15:56:50.626 (13688): Session1: QueryExecute: OK, Elapsed time:0.023s, Compilation time:0.000s, Execution time:0.023s
+2017-09-16 15:56:50.626 (21420): Session1: QueryExecute:
+2017-09-16 15:56:50.626 (21420): (create column [Extract].[Extract].[DAY] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-09-16 15:56:50.628 (21420): Compiling query with Memory Budget=3923312640
+2017-09-16 15:56:50.653 (21420): Session1: QueryExecute: OK, Elapsed time:0.027s, Compilation time:0.002s, Execution time:0.025s
+2017-09-16 15:56:50.653 (13688): Session1: QueryExecute:
+2017-09-16 15:56:50.653 (13688): (create column [Extract].[Extract].[YEAR] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-09-16 15:56:50.653 (13688): Compiling query with Memory Budget=3923255296
+2017-09-16 15:56:50.663 (13688): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-09-16 15:56:50.663 (21420): Session1: QueryExecute:
+2017-09-16 15:56:50.663 (21420): (create column [Extract].[Extract].[TEMP] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "2" ) ))
+2017-09-16 15:56:50.663 (21420): Compiling query with Memory Budget=3923255296
+2017-09-16 15:56:50.673 (21420): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.010s
+2017-09-16 15:56:50.673 (13688): Session1: QueryExecute:
+2017-09-16 15:56:50.673 (13688): (create column [Extract].[Extract].[RecordID] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "3" ) ))
+2017-09-16 15:56:50.674 (13688): Compiling query with Memory Budget=3923255296
+2017-09-16 15:56:50.685 (13688): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-09-16 15:56:50.686 (21420): Session1: QueryExecute:
+2017-09-16 15:56:50.686 (21420): (create column [Extract].[Extract].[Mu] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ))
+2017-09-16 15:56:50.686 (21420): Compiling query with Memory Budget=3923255296
+2017-09-16 15:56:50.695 (21420): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-09-16 15:56:50.695 (13688): Session1: QueryExecute:
+2017-09-16 15:56:50.695 (13688): (create column [Extract].[Extract].[C] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2017-09-16 15:56:50.695 (13688): Compiling query with Memory Budget=3923255296
+2017-09-16 15:56:50.703 (13688): Session1: QueryExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2017-09-16 15:56:50.703 (21420): Session1: QueryExecute:
+2017-09-16 15:56:50.703 (21420): (create column [Extract].[Extract].[Mu-Xt-C] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ))
+2017-09-16 15:56:50.704 (21420): Compiling query with Memory Budget=3923255296
+2017-09-16 15:56:50.716 (21420): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-09-16 15:56:50.716 (13688): Session1: QueryExecute:
+2017-09-16 15:56:50.716 (13688): (create column [Extract].[Extract].[St] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2017-09-16 15:56:50.717 (13688): Compiling query with Memory Budget=3923263488
+2017-09-16 15:56:50.726 (13688): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-09-16 15:56:50.730 (21420): Session1: InsertOpen: table="Extract" schema="Extract"
+2017-09-16 15:56:50.730 (21420):   column[0]="DAY"
+2017-09-16 15:56:50.730 (21420):   column[1]="YEAR"
+2017-09-16 15:56:50.730 (21420):   column[2]="TEMP"
+2017-09-16 15:56:50.730 (21420):   column[3]="RecordID"
+2017-09-16 15:56:50.730 (21420):   column[4]="Mu"
+2017-09-16 15:56:50.730 (21420):   column[5]="C"
+2017-09-16 15:56:50.730 (21420):   column[6]="Mu-Xt-C"
+2017-09-16 15:56:50.730 (21420):   column[7]="St"
+2017-09-16 15:56:50.742 (13688): Session1: InsertPutValues: total_calls=1 total_message_size=327208
+2017-09-16 15:56:50.816 (21420): Session1: InsertCommit: insert_guid=1 total_calls=1 total_message_size=327208
+2017-09-16 15:56:50.816 (21420): Session1: InsertCommit: OK
+2017-09-16 15:56:50.816 (13688): Session1: InsertClose: insert_guid=1
+2017-09-16 15:56:50.816 (13688): Session1: InsertClose: OK
+2017-09-16 15:56:50.816 (21420): Session1: QueryExecute:
+2017-09-16 15:56:50.816 (21420): (package)
+2017-09-16 15:56:50.816 (21420): Compiling query with Memory Budget=3919892480
+2017-09-16 15:56:50.817 (21420): PackageDatabase: in-place package of "C:\Git\isye6501x-intro-to-analytics-modeling\week-4\temps.tde"
+2017-09-16 15:56:50.866 (21420): PackageDatabase: finished
+2017-09-16 15:56:50.866 (21420): Session1: QueryExecute: OK, Elapsed time:0.050s, Compilation time:0.000s, Execution time:0.050s
+2017-09-16 15:56:50.866 (13688): Session1: QueryExecute:
+2017-09-16 15:56:50.866 (13688): (database "C:\\Git\\isye6501x-intro-to-analytics-modeling\\week-4\\temps.tde")
+2017-09-16 15:56:50.867 (13688): Compiling query with Memory Budget=3920809984
+2017-09-16 15:56:50.867 (13688): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.000s
+2017-09-16 15:56:50.867 (21420): Session1: QueryExecute:
+2017-09-16 15:56:50.867 (21420): (show schemas)
+2017-09-16 15:56:50.867 (21420): Compiling query with Memory Budget=3921014784
+2017-09-16 15:56:50.868 (21420): Session1: QueryExecute: OK rowset_guid=2 n_columns=1, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2017-09-16 15:56:50.868 (13688): Session1: RowsetGetValues:
+2017-09-16 15:56:50.868 (21420): Session1: RowsetGetValues:
+2017-09-16 15:56:50.868 (13688): Session1: RowsetClose:
+2017-09-16 15:56:50.868 (21420): Session1: QueryExecute:
+2017-09-16 15:56:50.868 (21420): (show tables [Extract])
+2017-09-16 15:56:50.868 (21420): Compiling query with Memory Budget=3920728064
+2017-09-16 15:56:50.869 (21420): Session1: QueryExecute: OK rowset_guid=3 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-09-16 15:56:50.870 (13688): Session1: RowsetGetValues:
+2017-09-16 15:56:50.870 (21420): Session1: RowsetGetValues:
+2017-09-16 15:56:50.870 (13688): Session1: RowsetClose:
+2017-09-16 15:56:50.870 (21420): Session1: QueryExecute:
+2017-09-16 15:56:50.870 (21420): (top (table [Extract].[Extract]) () 0)
+2017-09-16 15:56:50.883 (21420): Compiling query with DOP=2
+2017-09-16 15:56:50.883 (21420): Compiling query with Memory Budget=3922829312
+2017-09-16 15:56:50.883 (21420): Session1: QueryExecute: OK rowset_guid=4 n_columns=8, Elapsed time:0.013s, Compilation time:0.013s, Execution time:0.000s
+2017-09-16 15:56:50.884 (13688): Session1: RowsetClose:
+2017-09-16 15:56:50.884 (21420): Session1: QueryExecute:
+2017-09-16 15:56:50.884 (21420): (alter column [Extract].[Extract].[DAY] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:56:50.884 (21420): Compiling query with Memory Budget=3922550784
+2017-09-16 15:56:50.902 (21420): Session1: QueryExecute: OK, Elapsed time:0.018s, Compilation time:0.000s, Execution time:0.018s
+2017-09-16 15:56:50.902 (13688): Session1: QueryExecute:
+2017-09-16 15:56:50.902 (13688): (alter column [Extract].[Extract].[YEAR] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:56:50.902 (13688): Compiling query with Memory Budget=3921596416
+2017-09-16 15:56:50.910 (13688): Session1: QueryExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2017-09-16 15:56:50.910 (21420): Session1: QueryExecute:
+2017-09-16 15:56:50.910 (21420): (alter column [Extract].[Extract].[TEMP] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:56:50.911 (21420): Compiling query with Memory Budget=3921596416
+2017-09-16 15:56:50.924 (21420): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-09-16 15:56:50.924 (13688): Session1: QueryExecute:
+2017-09-16 15:56:50.924 (13688): (alter column [Extract].[Extract].[RecordID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:56:50.924 (13688): Compiling query with Memory Budget=3921367040
+2017-09-16 15:56:50.933 (13688): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.008s
+2017-09-16 15:56:50.933 (21420): Session1: QueryExecute:
+2017-09-16 15:56:50.933 (21420): (alter column [Extract].[Extract].[Mu] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:56:50.933 (21420): Compiling query with Memory Budget=3921367040
+2017-09-16 15:56:50.945 (21420): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-09-16 15:56:50.945 (13688): Session1: QueryExecute:
+2017-09-16 15:56:50.945 (13688): (alter column [Extract].[Extract].[C] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:56:50.945 (13688): Compiling query with Memory Budget=3921362944
+2017-09-16 15:56:50.958 (13688): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-09-16 15:56:50.958 (21420): Session1: QueryExecute:
+2017-09-16 15:56:50.958 (21420): (alter column [Extract].[Extract].[Mu-Xt-C] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:56:50.958 (21420): Compiling query with Memory Budget=3921362944
+2017-09-16 15:56:50.966 (21420): Session1: QueryExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2017-09-16 15:56:50.966 (13688): Session1: QueryExecute:
+2017-09-16 15:56:50.966 (13688): (alter column [Extract].[Extract].[St] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-09-16 15:56:50.966 (13688): Compiling query with Memory Budget=3921362944
+2017-09-16 15:56:50.976 (13688): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.009s
+2017-09-16 15:56:50.976 (21420): Session1: QueryExecute:
+2017-09-16 15:56:50.976 (21420): (top (table [Extract].[Extract]) () 0)
+2017-09-16 15:56:50.977 (21420): Compiling query with DOP=2
+2017-09-16 15:56:50.979 (21420): Compiling query with Memory Budget=3922132992
+2017-09-16 15:56:50.981 (21420): Session1: QueryExecute: OK rowset_guid=5 n_columns=8, Elapsed time:0.005s, Compilation time:0.002s, Execution time:0.002s
+2017-09-16 15:56:50.982 (13688): Session1: RowsetClose:
+2017-09-16 15:56:50.982 (21420): Session1: QueryExecute:
+2017-09-16 15:56:50.982 (21420): (sort [Extract].[Extract] ( ( [YEAR] asc) ( [TEMP] asc) ( [Mu-Xt-C] asc) ( [DAY] asc) ( [RecordID] asc) ( [St] asc) ) )
+2017-09-16 15:56:50.982 (21420): Compiling query with Memory Budget=3922071552
+2017-09-16 15:56:51.055 (21420): Session1: QueryExecute: OK, Elapsed time:0.073s, Compilation time:0.000s, Execution time:0.073s
+2017-09-16 15:56:51.055 (13688): Session1: QueryExecute:
+2017-09-16 15:56:51.055 (13688): (package)
+2017-09-16 15:56:51.055 (13688): Compiling query with Memory Budget=3922616320
+2017-09-16 15:56:51.056 (13688): PackageDatabase: in-place package of "C:\Git\isye6501x-intro-to-analytics-modeling\week-4\temps.tde"
+2017-09-16 15:56:51.080 (13688): PackageDatabase: finished
+2017-09-16 15:56:51.080 (13688): Session1: QueryExecute: OK, Elapsed time:0.025s, Compilation time:0.000s, Execution time:0.025s
+2017-09-16 15:56:51.080 (12820): tdeserver: close session, connection=tab.pipe://./pipe/{12263A0A-0A80-4D3F-ACA8-3752654BB625}, sess_guid=1
+2017-09-16 15:56:51.081 (27868): tdeserver: closing connection, connection=tab.pipe://./pipe/{12263A0A-0A80-4D3F-ACA8-3752654BB625}
+2017-09-16 15:56:51.081 (17892): endthread: send, connection=tab.pipe://./pipe/{12263A0A-0A80-4D3F-ACA8-3752654BB625}
+2017-09-16 15:56:51.081 (12820): tdeserver: connection dead: The pipe has been ended.
+2017-09-16 15:56:51.081 (12820):  - IPC_NamedPipe::Recv(ReadFile)
+2017-09-16 15:56:51.081 (12820): endthread: recv, connection=tab.pipe://./pipe/{12263A0A-0A80-4D3F-ACA8-3752654BB625}
+2017-09-16 15:56:51.081 (27868): tdeserver: exit (0)
